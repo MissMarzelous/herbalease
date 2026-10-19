@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerbalEASE | My Boards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="herba.css">
+</head>
+<body>
+
+<ul class="horizontal-menu">
+    <li><a href="database.html">Herbal Database</a></li>
+    <li><a href="boards.html" class="active">My Boards</a></li>
+    <li><a href="discussion.html">Discussion Board</a></li>
+    <li><a href="cruddb.html">Herbs added by Users</a></li>
+    <li><a href="survey.html">Survey</a></li>
+    <li><a href="index.html">Log in</a></li>
+</ul>
+
+<header class="app-head">
+    <div class="inner">
+        <div class="top">
+            <div>
+                <h1><span aria-hidden="true">&#127807;</span>My Boards</h1>
+                <p>Your saved herbs, organized your way.</p>
+            </div>
+            <div class="user-box" id="userBox"></div>
+        </div>
+    </div>
+</header>
+
+<main class="page">
+    <p class="count" id="status">Loading your boards...</p>
+
+    <!-- Not logged in -->
+    <div class="signin-card" id="signIn" hidden>
+        <h2>Save herbs to boards</h2>
+        <p>Create a free account to save herbs into boards like "Tea blends" or "Garden ideas."</p>
+        <a class="btn" href="index.html">Log in or sign up</a>
+        <p><a href="database.html">Browse the herb database</a></p>
+    </div>
+
+    <!-- All boards -->
+    <div id="allBoards" hidden>
+        <div class="boards-grid" id="boardsGrid"></div>
+    </div>
+
+    <!-- One board -->
+    <div id="oneBoard" hidden>
+        <div class="board-head">
+            <h2 id="boardTitle"></h2>
+            <a class="btn light" href="#">&larr; All boards</a>
+            <button class="btn light" type="button" id="renameBtn">Rename</button>
+            <button class="btn danger" type="button" id="deleteBtn">Delete board</button>
+        </div>
+        <p class="count" id="boardCount"></p>
+        <div class="masonry" id="boardGrid"></div>
+        <div class="empty" id="boardEmpty" hidden>
+            <p>No herbs on this board yet.</p>
+            <a class="btn" href="database.html">Find herbs to save</a>
+        </div>
+    </div>
+</main>
+
+<script src="auth.js"></script>
+<script src="herbcards.js"></script>
+<script>
+(function () {
+    "use strict";
+    var herbsByName = {};
+    var status = document.getElementById("status");
+
+    function boardById(id) {
+        return HerbUI.state.boards.filter(function (b) { return b.id === id; })[0];
+    }
+
+    function currentId() {
+        var m = /^#board-(\d+)$/.exec(window.location.hash);
+        return m ? parseInt(m[1], 10) : null;
+    }
+
+    function tileArt(names) {
+        var collage = document.createElement("div");
+        collage.className = "collage";
+        for (var i = 0; i < 3; i++) {
+            var cell = document.createElement("div");
+            var h = herbsByName[names[i]];
+            if (h) {
+                cell.style.background = HerbUI.gradient(h);
+                cell.textContent = names[i].charAt(0);
+            }
+            collage.appendChild(cell);
+        }
+        return collage;
+    }
+
+    function showAll() {
+        document.getElementById("oneBoard").hidden = true;
+        document.getElementById("allBoards").hidden = false;
+        var boards = HerbUI.state.boards;
+        status.textContent = boards.length ? boards.length + " board" + (boards.length === 1 ? "" : "s") : "You don't have any boards yet. Make one below, or save an herb from the database.";
+        var grid = document.getElementById("boardsGrid");
+        grid.innerHTML = "";
+        boards.forEach(function (b) {
+            var tile = document.createElement("button");
+            tile.type = "button";
+            tile.className = "board-tile";
+            tile.appendChild(tileArt(b.herbs));
+            var info = document.createElement("div");
+            info.className = "info";
+            var h3 = document.createElement("h3"); h3.textContent = b.name;
+            var p = document.createElement("p"); p.textContent = b.herbs.length + " herb" + (b.herbs.length === 1 ? "" : "s");
+            info.appendChild(h3); info.appendChild(p);
+            tile.appendChild(info);
+            tile.addEventListener("click", function () { window.location.hash = "board-" + b.id; });
+            grid.appendChild(tile);
+        });
+        var add = document.createElement("button");
+        add.type = "button";
+        add.className = "new-tile";
+        add.textContent = "+ New board";
+        add.addEventListener("click", function () {
+            HerbUI.prompt("Create a board", "", "Create").then(function (r) {
+                HerbUI.call("create", { name: r.value }).then(function () { r.done(); show(); HerbUI.toast("Board created"); }, function (e) { r.fail(e.message); });
+            });
+        });
+        grid.appendChild(add);
+    }
+
+    function showBoard(b) {
+        document.getElementById("allBoards").hidden = true;
+        document.getElementById("oneBoard").hidden = false;
+        status.textContent = "";
+        document.getElementById("boardTitle").textContent = b.name;
+        document.getElementById("boardCount").textContent = b.herbs.length + " herb" + (b.herbs.length === 1 ? "" : "s");
+        var cards = [];
+        b.herbs.forEach(function (name) {
+            var h = herbsByName[name];
+            if (!h) return;
+            cards.push(HerbUI.card(h, {
+                onRemove: function (herb, cardEl) {
+                    HerbUI.call("unsave", { board_id: b.id, herb: name }).then(function () {
+                        HerbUI.toast("Removed " + name);
+                        show();
+                    }, function (e) { HerbUI.toast(e.message); });
+                }
+            }));
+        });
+        HerbUI.masonry(document.getElementById("boardGrid"), cards);
+        document.getElementById("boardEmpty").hidden = b.herbs.length > 0;
+    }
+
+    function show() {
+        if (!HerbUI.state.user) return;
+        var id = currentId();
+        var b = id ? boardById(id) : null;
+        if (b) showBoard(b); else showAll();
+        HerbUI.refreshSaveButtons();
+    }
+
+    document.getElementById("renameBtn").addEventListener("click", function () {
+        var b = boardById(currentId());
+        if (!b) return;
+        HerbUI.prompt("Rename board", b.name, "Rename").then(function (r) {
+            HerbUI.call("rename", { board_id: b.id, name: r.value }).then(function () { r.done(); show(); }, function (e) { r.fail(e.message); });
+        });
+    });
+
+    document.getElementById("deleteBtn").addEventListener("click", function () {
+        var b = boardById(currentId());
+        if (!b) return;
+        HerbUI.confirm("Delete “" + b.name + "”?", "The board and its saved herbs will be removed. The herbs stay in the database.", "Delete board").then(function (yes) {
+            if (!yes) return;
+            HerbUI.call("delete", { board_id: b.id }).then(function () {
+                HerbUI.toast("Board deleted");
+                window.location.hash = "";
+                show();
+            }, function (e) { HerbUI.toast(e.message); });
+        });
+    });
+
+    // Saving or unsaving from a card's Save button on this page: redraw so the board stays accurate
+    document.addEventListener("herbboards:change", show);
+
+    window.addEventListener("hashchange", show);
+
+    Promise.all([HerbUI.loadHerbs(), HerbUI.init()]).then(function (r) {
+        r[0].forEach(function (h) { herbsByName[h["Common Name"]] = h; });
+        HerbUI.userBox(document.getElementById("userBox"));
+        if (!HerbUI.state.user) {
+            status.textContent = "";
+            document.getElementById("signIn").hidden = false;
+            return;
+        }
+        show();
+    }).catch(function () {
+        status.textContent = "Couldn't load your boards. Please refresh the page.";
+    });
+})();
+</script>
+<script src="../assets/projectbar.js"></script>
+</body>
+</html>

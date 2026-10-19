@@ -1,0 +1,48 @@
+
+/* Custom styles for the discussion forum */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    margin: 20px auto;
+    width: 80%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,5 @@
+# Block direct access to the settings and shared code files
+<FilesMatch "^(config|db)\.php$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

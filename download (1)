@@ -1,0 +1,2 @@
+# Real database credentials: never commit this file
+api/config.php

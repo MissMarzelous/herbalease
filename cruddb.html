@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HerbalEASE | Herbs Added By Users</title>
+  <link rel="stylesheet" type="text/css" href="stylecrud.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<link rel="stylesheet" href="styles.css">
+<ul class="horizontal-menu">
+  
+    <li><a href="database.html">Herbal Database</a></li>
+    <li><a href="boards.html">My Boards</a></li>
+    <li><a href="discussion.html">Discussion Board</a></li>
+    <li><a href="cruddb.html">Herbs added by Users</a></li>
+    <li><a href="survey.html">Survey</a></li>
+    <li><a href="index.html">Log in</a></li>
+   
+   
+</ul>
+
+<div class="title">
+    <h1>Herbs Added By Users</h1>
+    <p>This is a public forum where users can add additional herbs, remedies, and uses. This is a separate database that anyone can add to. Please do your own research before using any of these remedies/uses.</p>
+</div>
+
+<div class="form">
+    <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+        <input type="text" id="add-herb" placeholder="Add Herb">
+        <input type="text" id="add-parts" placeholder="Add Parts Used">
+        <input type="text" id="add-remedies" placeholder="Add Remedies">
+        <input type="text" id="add-uses" placeholder="Add Uses">
+        <input type="submit" value="Add" class="btn btn-primary">
+    </form>
+</div>
+
+<p>Herbs Added: </p>
+<p id="counter"></p>
+
+<table>
+    <tr class="Added Herbs">
+        <th><h3>Added Herbs:</h3></th>
+    </tr>
+    <tbody id="herbs">
+    </tbody>
+</table>
+
+
+
+<script src="userAddHerb.js?v=2"></script>
+<script src="auth.js"></script>
+<script src="../assets/projectbar.js"></script>
+</body>
+</html>

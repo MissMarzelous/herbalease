@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerbalEASE | Herbal Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="herba.css">
+</head>
+<body>
+
+<ul class="horizontal-menu">
+    <li><a href="database.html" class="active">Herbal Database</a></li>
+    <li><a href="boards.html">My Boards</a></li>
+    <li><a href="discussion.html">Discussion Board</a></li>
+    <li><a href="cruddb.html">Herbs added by Users</a></li>
+    <li><a href="survey.html">Survey</a></li>
+    <li><a href="index.html">Log in</a></li>
+</ul>
+
+<header class="app-head">
+    <div class="inner">
+        <div class="top">
+            <div>
+                <h1><span aria-hidden="true">&#127807;</span>HerbalEASE</h1>
+                <p>Explore 265 herbs and save your favorites to boards.</p>
+            </div>
+            <div class="user-box" id="userBox"></div>
+        </div>
+        <form class="search" role="search" id="searchForm">
+            <input type="search" id="searchInput" placeholder="Search herbs, uses, Latin names, families..." aria-label="Search herbs">
+        </form>
+    </div>
+</header>
+
+<main class="page">
+    <div class="chips" role="group" aria-label="Filter by part used">
+        <button class="chip" data-part="" aria-pressed="true">All herbs</button>
+        <button class="chip" data-part="leaves" aria-pressed="false">Leaves</button>
+        <button class="chip" data-part="root" aria-pressed="false">Roots</button>
+        <button class="chip" data-part="flower" aria-pressed="false">Flowers</button>
+        <button class="chip" data-part="seed" aria-pressed="false">Seeds</button>
+        <button class="chip" data-part="bark" aria-pressed="false">Bark</button>
+        <button class="chip" data-part="fruit" aria-pressed="false">Fruit</button>
+        <button class="chip" data-part="saved" aria-pressed="false" id="savedChip" hidden>My saved herbs</button>
+    </div>
+    <p class="count" id="count" aria-live="polite">Loading herbs...</p>
+    <div class="masonry" id="grid"></div>
+    <p class="empty" id="empty" hidden>No herbs match your search. Try another word.</p>
+</main>
+
+<script src="auth.js"></script>
+<script src="herbcards.js"></script>
+<script>
+(function () {
+    "use strict";
+    var herbs = [];
+    var part = "";
+    var grid = document.getElementById("grid");
+    var input = document.getElementById("searchInput");
+    var chips = document.querySelectorAll(".chip");
+
+    function matches(h, words) {
+        var text = Object.keys(h).map(function (k) { return h[k] || ""; }).join(" ").toLowerCase();
+        for (var i = 0; i < words.length; i++) { if (text.indexOf(words[i]) === -1) return false; }
+        if (part === "saved") {
+            return HerbUI.state.boards.some(function (b) { return b.herbs.indexOf(h["Common Name"]) !== -1; });
+        }
+        if (part) return String(h["Parts Used"] || "").toLowerCase().indexOf(part) !== -1;
+        return true;
+    }
+
+    function render() {
+        var words = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+        var list = herbs.filter(function (h) { return matches(h, words); });
+        HerbUI.masonry(grid, list.map(function (h) { return HerbUI.card(h); }));
+        document.getElementById("count").textContent = list.length + " of " + herbs.length + " herbs";
+        document.getElementById("empty").hidden = list.length > 0;
+    }
+
+    document.addEventListener("herbboards:change", function () { if (part === "saved") render(); });
+    input.addEventListener("input", render);
+    document.getElementById("searchForm").addEventListener("submit", function (e) { e.preventDefault(); render(); });
+    Array.prototype.forEach.call(chips, function (c) {
+        c.addEventListener("click", function () {
+            part = c.dataset.part;
+            Array.prototype.forEach.call(chips, function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
+            render();
+        });
+    });
+
+    Promise.all([HerbUI.loadHerbs(), HerbUI.init()]).then(function (r) {
+        herbs = r[0];
+        HerbUI.userBox(document.getElementById("userBox"));
+        document.getElementById("savedChip").hidden = !HerbUI.state.user;
+        render();
+    }).catch(function () {
+        document.getElementById("count").textContent = "Couldn't load the herb list. Please refresh the page.";
+    });
+})();
+</script>
+<script src="../assets/projectbar.js"></script>
+</body>
+</html>

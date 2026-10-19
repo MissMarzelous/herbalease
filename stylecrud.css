@@ -1,0 +1,81 @@
+body {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form {
+  margin: auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+input[type='submit'],
+button,
+[aria-label] {
+  cursor: pointer;
+}
+
+#edit-box {
+  display: none;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#edit-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#edit-box input[type="submit"],
+#edit-box a {
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#edit-box input[type="submit"]:hover,
+#edit-box a:hover {
+  background-color: #45a049;
+}
+
+td {
+  background-color: aliceblue;
+  padding: 30px; /* Increased padding for columns */
+  text-align: left;
+}
+
+.to-do {
+  background: transparent !important;
+}
+
+/* Media queries for mobile compatibility */
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .form {
+    max-width: 100%;
+  }
+
+  td {
+    padding: 10px; /* Reduced padding for columns on mobile */
+  }
+}
+

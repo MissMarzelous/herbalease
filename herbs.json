@@ -1,0 +1,2391 @@
+[
+    
+   
+
+{
+    
+    "Common Name" : "Abelmosk",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Hibiscus moschatus",
+    "Family" : "Malvaceae",
+    "Properties and Uses" : "nervine, perfume, aphrodisiac,\ndemulcent",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Acacia",
+    "Parts Used" : "gum resin",
+    "Latin Name" : "Acacia senegal, A. vera",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "gum, sweets, adhesives, demulcent",
+    "Chemical Constituents" : "gums, tannins"
+},
+{
+    
+    "Common Name" : "Agrimony",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Agrimonia eupatoria",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "dye, tonic, astringent, vulnerary,\ndiuretic, stomachic, hepatic,\nantisecretory",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Alfalfa",
+    "Parts Used" : "leaves,\nsprouts",
+    "Latin Name" : "Medicago sativa",
+    "Family" : "Leguminosae",
+    "Properties and Uses" : "nutritive",
+    "Chemical Constituents" : "protein"
+},
+{
+    
+    "Common Name" : "Allspice",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Pimenta officinalis",
+    "Family" : "Myrtaceae",
+    "Properties and Uses" : "spice, carminative",
+    "Chemical Constituents" : "eugenol, cineole,\ncaryophyllene"
+},
+{
+    
+    "Common Name" : "Allspice, Carolina",
+    "Parts Used" : "bark",
+    "Latin Name" : "Calycanthus floridus",
+    "Family" : "Calycanthaceae",
+    "Properties and Uses" : "fragrance, spice, cinnamon\nsubstitute, antispasmodic",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Aloe",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Aloe barbadoensis, A.\nvera var. officinalis",
+    "Family" : "Liliaceae",
+    "Properties and Uses" : "antiseptic, burn ointment, purgative,\nGI irritant, not for pregnant",
+    "Chemical Constituents" : "barbaloin O-pentosides,\naloinosides, chrysophanic\nacid, cinnamic acids"
+},
+{
+    
+    "Common Name" : "Anatto",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Bixa orellana",
+    "Family" : "Bixaceae",
+    "Properties and Uses" : "tasteless yellow food dye",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Angelica",
+    "Parts Used" : "root",
+    "Latin Name" : "Angelica archangelica, A.\nsinensis, A. spp.",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, candies, expectorant,\ncarminative, diaphoretic, mild\nstimulant, antibacterial",
+    "Chemical Constituents" : "angleic, fumaric, caffeic,\nchrorogenic acids, angelicol,\nangelicin"
+},
+{
+   
+    "Common Name" : "Angostura",
+    "Parts Used" : "bark",
+    "Latin Name" : "Angostura febrifuga,\nGalipea officinalis",
+    "Family" : "Rutaceae",
+    "Properties and Uses" : "bitter stomachic, appetite stimulant,\ncarminative, diaphoretic, diuretic,\ndrinks",
+    "Chemical Constituents" : "quinolines: cusparine,\ncuspareine, galipine,\ngalipodine, galipoline"
+},
+{
+    
+    "Common Name" : "Anise",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Pimpinella anisum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, carminative, diuretic,\ndiaphoretic, expectorant",
+    "Chemical Constituents" : "anethole"
+},
+{
+   
+    "Common Name" : "Arnica",
+    "Parts Used" : "petals",
+    "Latin Name" : "Arnica montana, A. spp.",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "vulnerary, external use only",
+    "Chemical Constituents" : "volatile oil, arnicin, arnisterol,\nanthoxanthine, tannin, resin"
+},
+{
+   
+    "Common Name" : "Arrowroot",
+    "Parts Used" : "root",
+    "Latin Name" : "Maranta arundinacea",
+    "Family" : "Marantaceae",
+    "Properties and Uses" : "culinary, sweetener, anti-diarrheal",
+    "Chemical Constituents" : "starch"
+},
+{
+    
+    "Common Name" : "Arthritis Root",
+    "Parts Used" : "root",
+    "Latin Name" : "Harpagophytum\nprocumbens",
+    "Family" : "Pedaliaceae",
+    "Properties and Uses" : "alterative, llithotriptic, stimulant",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Asafoetida",
+    "Parts Used" : "resin",
+    "Latin Name" : "Ferula assa-foetida",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "carminative, expectorant, candies",
+    "Chemical Constituents" : "ferulic, tannic esters, pinene,\nvanillin, gum, oil"
+},
+{
+    
+    "Common Name" : "Astragalus",
+    "Parts Used" : "various\nparts",
+    "Latin Name" : "Astragalus gummifer, A.\nglycphyullus, A. sinicus,\nA. spp.",
+    "Family" : "Leguminosae",
+    "Properties and Uses" : "Chinese medicinal (A. sinica), gums,\nlotions (A. gummifer), some with\nselenium or alkaloid toxicity",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Balm-of-Gilead",
+    "Parts Used" : "buds",
+    "Latin Name" : "Populus candicans, P.\nbalsamifera",
+    "Family" : "Salicace",
+    "Properties and Uses" : "wound sealer, expectorant, antiseptic",
+    "Chemical Constituents" : "propolis, sap"
+},
+{
+    
+    "Common Name" : "Balsam-Apple",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Momordica balsamina",
+    "Family" : "Cucurbitaceae",
+    "Properties and Uses" : "onamental, fragrance",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Barberry",
+    "Parts Used" : "bark, fruits",
+    "Latin Name" : "Berberis vulgaris",
+    "Family" : "Berberidaceae",
+    "Properties and Uses" : "tonic, laxative, refrigerant, antiseptic,\nstomachic",
+    "Chemical Constituents" : "berberine"
+},
+{
+   
+    "Common Name" : "Basil, Sweet",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Ocimum basilicum,\nOcimum spp.",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, mild stimulant",
+    "Chemical Constituents" : "ocimene (an open chain C-10\nterpene)"
+},
+{
+    
+    "Common Name" : "Bay Leaf",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Laurus nobilis",
+    "Family" : "Lauraceae",
+    "Properties and Uses" : "spice, carminative, astringent",
+    "Chemical Constituents" : "long-chain esters"
+},
+{
+    
+    "Common Name" : "Bayberry",
+    "Parts Used" : "bark",
+    "Latin Name" : "Myrica cerifera, M. gale,\nM. pennsylvanica, M.\ncalifornica, M. spp.",
+    "Family" : "Myricaceae",
+    "Properties and Uses" : "astringent, emetic, mild stimulant,\nsialagogue, hemostatic, dye,\ninsecticide, candle wax fragrance",
+    "Chemical Constituents" : "resin, tannin, gum, starch,\npalmitic, myristic, lauric acids"
+},
+{
+
+    "Common Name" : "Belladonna",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Atropa belladonna",
+    "Family" : "Solanaceae",
+    "Properties and Uses" : "antisecretory, mydriatic,\nantispasmodic, stimulant-depressant,\nhallucinogen, psychotic, delusinogen",
+    "Chemical Constituents" : "atropine, scopolamine"
+},
+{
+   
+    "Common Name" : "Bergamot",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Monarda didyma, M.\ncitriodora, M. spp.",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "tea, fragrance, mild stimulant,\ncarminative",
+    "Chemical Constituents" : "l-linalool acetic ester, d-limonene, carvacrol, cymene"
+},
+{
+    
+    "Common Name" : "Betel Nuts",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Areca catechu",
+    "Family" : "Palmaceae",
+    "Properties and Uses" : "parasympathomimetic, stimulant-depressant, dye, narcotic, can cause\ncardiac strain",
+    "Chemical Constituents" : "arecolines (compounds\nrelated to the tobacco\nalkaloids)"
+},
+{
+    
+    "Common Name" : "Betony",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Stachys officinalis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "appetite stimulant, cordial, tea",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Birch",
+    "Parts Used" : "bark, sap",
+    "Latin Name" : "Betula lenta",
+    "Family" : "Betulaceae",
+    "Properties and Uses" : "counterirritant, antipyretic, analgesic,\nirritates ulcers, can cause salicylate\npoisoning",
+    "Chemical Constituents" : "methyl salicylate"
+},
+{
+    
+    "Common Name" : "Birthroot",
+    "Parts Used" : "root",
+    "Latin Name" : "Trillium pendulum",
+    "Family" : "Liliaceae",
+    "Properties and Uses" : "vaginal antihemmorragic, mucous\nmembrane irritant",
+    "Chemical Constituents" : "trilline, trillarin (a diglycoside\nresembling diosgenin)"
+},
+{
+   
+    "Common Name" : "Bloodroot",
+    "Parts Used" : "sap, root",
+    "Latin Name" : "Sanguinaria canadensis",
+    "Family" : "Papaveraceae",
+    "Properties and Uses" : "dye, demulcent, expectorant, smooth\nmuscle stimulant, exacerbates\nglaucoma",
+    "Chemical Constituents" : "sanguinarine, chelidonine"
+},
+{
+    
+    "Common Name" : "Boldo",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Peumus boldus",
+    "Family" : "Monimiaceae",
+    "Properties and Uses" : "fragrance, tea, carminative, formerly\nused in hepatic dysfunction, gastric\nstimulant",
+    "Chemical Constituents" : "volatile oil, boldine (an\naporphine)"
+},
+{
+   
+    "Common Name" : "Boneset",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Eupatorium perfoliatum",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "antimalarial, diaphoretic, mucilage,\nemetic, depletes blood sugars,\nchronic toxicity",
+    "Chemical Constituents" : "wax, tremetrol, resin, tannin"
+},
+{
+    
+    "Common Name" : "Borage",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Borago officinalis",
+    "Family" : "Boraginaceae",
+    "Properties and Uses" : "potherb, diuretic, demulcent,\nemollient, may have chronic toxicity",
+    "Chemical Constituents" : "pyrrolizidines"
+},
+{
+   
+    "Common Name" : "Buchu",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Barosma betulina,\nAgathosma spp.",
+    "Family" : "Rutaceae",
+    "Properties and Uses" : "tea, fragrance, weak diuretic, urinary\nantiseptic, diaphoretic",
+    "Chemical Constituents" : "diosphenol, volatile oils,\nflavonoids"
+},
+{
+    
+    "Common Name" : "Burdock",
+    "Parts Used" : "roots,\nleaves,\nstems",
+    "Latin Name" : "Arctium lappa",
+    "Family" : "Compositae",
+    "Properties and Uses" : "diaphoretic, diuretic, demulcent",
+    "Chemical Constituents" : "volatile oils, inulin, tannin,\narctiin (a glycoside)"
+},
+{
+    
+    "Common Name" : "Burnet, Salad",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Sanguisorba officinalis\n(Poterium sanguisorba)",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "vulnerary, salad herb, tonic,\nastringent, hemostatic, diaphoretic,\nherb beer, cordials",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Burra Gokeroo",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Pedalium murex",
+    "Family" : "Pedaliaceae",
+    "Properties and Uses" : "GI antiseptic, ganglial stimulant, male\naphrodisiac, tonic, antispasmodic",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Calamus",
+    "Parts Used" : "root",
+    "Latin Name" : "Acorus calamus",
+    "Family" : "Araceae",
+    "Properties and Uses" : "anthelmintic, stimulant, carminative,\nmild hallucinogen, carcinogen",
+    "Chemical Constituents" : "asarone, eugenol, pinene,\ncamphene, caryophyllene"
+},
+{
+    
+    "Common Name" : "Calendula",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Calendula officinalis",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "vulnerary, astringent, diaphoretic,\nantispasmodic",
+    "Chemical Constituents" : "carotenoids, calendulin, a\nsaponin of calendin"
+},
+{
+    
+    "Common Name" : "California Poppy",
+    "Parts Used" : "sap",
+    "Latin Name" : "Eschscholtzia californica",
+    "Family" : "Papaveraceae",
+    "Properties and Uses" : "sedative, smooth muscle stimulant,\nexacerbates glaucoma",
+    "Chemical Constituents" : "coptisine, sanguinarine"
+},
+{
+    
+    "Common Name" : "Calumba",
+    "Parts Used" : "root",
+    "Latin Name" : "Cocculus palmatus,\nJateorrhiza palmata",
+    "Family" : "Menispermaceae",
+    "Properties and Uses" : "bitter tonic, toxic?, smooth muscle\nstimulant, exacerbates glaucoma",
+    "Chemical Constituents" : "C. indicus contains\npicrotoxin, menispermine,\ncocculine, quarternary\nberberine-type alkaloids"
+},
+{
+   
+    "Common Name" : "Camphor",
+    "Parts Used" : "bark",
+    "Latin Name" : "Cinnamomum camphora",
+    "Family" : "Lauraceae",
+    "Properties and Uses" : "incense, counter-irritant, anaesthetic,\nantiseptic, narcotic, abuse can cause\nliver and kidney damage",
+    "Chemical Constituents" : "2 - bornanone, a C-10\nterpene"
+},
+{
+    
+    "Common Name" : "Capers",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Capparis spinosa",
+    "Family" : "Capparidaceae",
+    "Properties and Uses" : "spice, seasoning",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Caraway",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Carum carvi",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, carminative, anti-griping agent,\npedullicide, mild CNS depressant",
+    "Chemical Constituents" : "carvone, limonene"
+},
+{
+   
+    "Common Name" : "Cardamon",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Elettaria cardamomun",
+    "Family" : "Zingiberaceae",
+    "Properties and Uses" : "spice, carminative",
+    "Chemical Constituents" : "cineole, terpineole, terpinyl\nacetate"
+},
+{
+   
+    "Common Name" : "Carob",
+    "Parts Used" : "roasted\nseeds",
+    "Latin Name" : "Ceratonis siliqua",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "spice, condiment, sweetener",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Carrot",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Daucus carota",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, diuretic, purgative for bladder,\nantilithic",
+    "Chemical Constituents" : "vitamin A, caryophyllene"
+},
+{
+    
+    "Common Name" : "Cascara sagrada",
+    "Parts Used" : "bark",
+    "Latin Name" : "Rhamnus purshiana",
+    "Family" : "Rhamnaceae",
+    "Properties and Uses" : "bitter tonic, strong laxative",
+    "Chemical Constituents" : "anthraquinone glycosides"
+},
+{
+    
+    "Common Name" : "Castor Bean",
+    "Parts Used" : "bean oil",
+    "Latin Name" : "Ricinus communis",
+    "Family" : "Euphorbiaceae",
+    "Properties and Uses" : "purgative, source of castor oil",
+    "Chemical Constituents" : "triglycerides of fatty acids,\nmostly ricinoleic and stearic"
+},
+{
+   
+    "Common Name" : "Catnip",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Nepeta cataria",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "tea, feline sex stimulant,\nantispasmodic, nervine, mild CNS\nstimulant",
+    "Chemical Constituents" : "nepetalactone, citral,\nlimonene, geraniol,\ncitronellal, nerol"
+},
+{
+    
+    "Common Name" : "Celery",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Apium graveolens",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, digestive aid, antiseptic, CNS\nagent, antispasmodic",
+    "Chemical Constituents" : "sedonic anhydrides, nitrates"
+},
+{
+    
+    "Common Name" : "Centaury",
+    "Parts Used" : "whole herb",
+    "Latin Name" : "Centaurium erythraea, C.\numbellatum, C. spp.,\nErythraea centaurium",
+    "Family" : "Gentianaceae",
+    "Properties and Uses" : "aromatic, appetite stimulant, bitter\ntonic, stomachic, blood-purifier",
+    "Chemical Constituents" : "erythro-centaurin (bitter\nprinciple), eritaurin, valeric\nacid"
+},
+{
+    
+    "Common Name" : "Chamomile,\nRoman",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Anthemis nobilis\n(Chamaemelum nobile)",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "tea, mild stimulant, appetite stimulant,\nbitter tonic, emetic",
+    "Chemical Constituents" : "anthemides, tiglic esters"
+},
+{
+    
+    "Common Name" : "Chamomile,\nGerman",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Matricaria chamomilla",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "tea, sedative, antipyretic, mild CNS\ndepressant",
+    "Chemical Constituents" : "azulenes, sesquiterpenes,\nalpha-bisabolol"
+},
+{
+    
+    "Common Name" : "Chapparal",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Larria mexicana, L.\ndivaricata",
+    "Family" : "Zygophyllaceae",
+    "Properties and Uses" : "antiseptic, alterative, expectorant,\ndiuretic, antibiotic, antioxidant",
+    "Chemical Constituents" : "NDGA (a powerful\nantioxidant)"
+},
+{
+    
+    "Common Name" : "Cherry, Wild",
+    "Parts Used" : "bark",
+    "Latin Name" : "Prunus serotina",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "aroma, tea, expectorant, cough syrup,\nstomachic",
+    "Chemical Constituents" : "cyanogenic glycosides,\nemulsin"
+},
+{
+    
+    "Common Name" : "Chervil",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Anthriscus cerefolium",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, salad herb",
+    "Chemical Constituents" : "anise-like terpenes"
+},
+{
+    
+    "Common Name" : "Chia",
+    "Parts Used" : "seeds,\nsprouts",
+    "Latin Name" : "Salvia hispanica, S.\ncolumbariae",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "bulk former, nutritive",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Chickweed",
+    "Parts Used" : "above-ground\nparts",
+    "Latin Name" : "Stellaria media, S. spp.",
+    "Family" : "Caryophyllaceae",
+    "Properties and Uses" : "demulcent, refrigerant, poultice,\nnutritive",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Chicory",
+    "Parts Used" : "roasted root",
+    "Latin Name" : "Cichorium intybus",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "coffee additive",
+    "Chemical Constituents" : "fructosans"
+},
+{
+    
+    "Common Name" : "Chives",
+    "Parts Used" : "roots",
+    "Latin Name" : "Allium schoenoprasum",
+    "Family" : "Amaryllidaceae",
+    "Properties and Uses" : "spice, potherb",
+    "Chemical Constituents" : "allyl disulfides"
+},
+{
+   
+    "Common Name" : "Chrysanthemum,\nEdible",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Chrysanthemum\ncoronarium",
+    "Family" : "Compositae",
+    "Properties and Uses" : "oriental vegetable, potherb",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Chufa",
+    "Parts Used" : "rhizomes",
+    "Latin Name" : "Cyperus esculentus",
+    "Family" : "Cyperaceae",
+    "Properties and Uses" : "flour substitute",
+    "Chemical Constituents" : "starch"
+},
+{
+    
+    "Common Name" : "Cilantro",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Coriandrum sativum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "culinary herb, see Coriander for seed",
+    "Chemical Constituents" : "linalool, malic acid, tannin,\nmucilage"
+},
+{
+   
+    "Common Name" : "Cinnamon",
+    "Parts Used" : "bark",
+    "Latin Name" : "Cinnamomum\nzeylanicum",
+    "Family" : "Lauraceae",
+    "Properties and Uses" : "spice, tea, fragrance, perfume",
+    "Chemical Constituents" : "cinnamaldehydes"
+},
+{
+
+    "Common Name" : "Citronella",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Cymbopogon nardus",
+    "Family" : "Gramineae",
+    "Properties and Uses" : "insect repellant, perfume",
+    "Chemical Constituents" : "citronellal"
+},
+{
+    
+    "Common Name" : "Citrus",
+    "Parts Used" : "peel",
+    "Latin Name" : "Citrus aurantium, C.\nlimon",
+    "Family" : "Rutaceae",
+    "Properties and Uses" : "candies, nutritive, spice, carminative",
+    "Chemical Constituents" : "flavonoids, limonene, wax,\nketonic acids, aldehydes,\nesters, alcohols"
+},
+{
+    
+    "Common Name" : "Clover, Red",
+    "Parts Used" : "tops",
+    "Latin Name" : "Trifolium pratense",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "tea, vitamin, protein",
+    "Chemical Constituents" : "proteins"
+},
+{
+   
+    "Common Name" : "Cloves",
+    "Parts Used" : "dried flower\nbuds",
+    "Latin Name" : "Syzygium aromaticum,\nCaryophyllus aromaticus",
+    "Family" : "Myrtaceae",
+    "Properties and Uses" : "spice, dental anaesthetic, antiseptic,\naphrosidisiac, stimulant, ~allergen",
+    "Chemical Constituents" : "eugenol"
+},
+{
+    
+    "Common Name" : "Cocoa",
+    "Parts Used" : "woody fruit",
+    "Latin Name" : "Theobroma cacao",
+    "Family" : "Sterculiaceae",
+    "Properties and Uses" : "cocoa drinks, candies, emollient\nbutter, demulcent, CNS stimulant,\ncan produce nervousness,\nsleeplessness",
+    "Chemical Constituents" : "fat, mucliage, theobromine (a\nxanthine)"
+},
+{
+    
+    "Common Name" : "Coffee",
+    "Parts Used" : "roasted\nbeans",
+    "Latin Name" : "Coffea arabica",
+    "Family" : "Rubiaceae",
+    "Properties and Uses" : "CNS stimulant, can cause\nnervousness, irritates ulcers &\nmucous membranes",
+    "Chemical Constituents" : "caffeine"
+},
+{
+   
+    "Common Name" : "Cohosh, Black",
+    "Parts Used" : "root",
+    "Latin Name" : "Cimifuga racemosa",
+    "Family" : "Ranunculaceae",
+    "Properties and Uses" : "pesticide, bitter astringent, mild\nemetic, sedative",
+    "Chemical Constituents" : "ferulic, palmitic, oleic acids,\nresin, tannin, cimifugin"
+},
+{
+   
+    "Common Name" : "Cohosh, Blue",
+    "Parts Used" : "root",
+    "Latin Name" : "Caulophyllum\nthalictroides",
+    "Family" : "Berberidaceae",
+    "Properties and Uses" : "oxytocic, antispasmodic,\nemmenagogue, diuretic, not for\npregnant",
+    "Chemical Constituents" : "leontin, caulophylline,\nsaponins, resins"
+},
+{
+   
+    "Common Name" : "Cola Nuts",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Cola nitida, C. acuminata",
+    "Family" : "Sterculiaceae",
+    "Properties and Uses" : "analeptic, aphrodisiac, CNS\nstimulant, diuretic, astringent, irritates\nulcers & mucous membranes, can\ncause nervousness",
+    "Chemical Constituents" : "xanthines, gum, catechols"
+},
+{
+    
+    "Common Name" : "Coltsfoot",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Tussilago farfara",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "demulcent, expectorant, emollient,\nsmokable",
+    "Chemical Constituents" : "tannin, saponins, resin,\npectin, caotchouc"
+},
+{
+    
+    "Common Name" : "Comfrey",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Symphytum officinale",
+    "Family" : "Boraginaceae",
+    "Properties and Uses" : "poultices, internal demulcent, diuretic,\nlaxative, ~allergen",
+    "Chemical Constituents" : "pyrrolidizines, allantoin,\nmucilage, tannin"
+},
+{
+   
+    "Common Name" : "Coriander",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Coriandrum sativum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, carminative, antipyretic, see\nCilantro for leaf",
+    "Chemical Constituents" : "linalool, malic acid, tannin,\nmucilage"
+},
+{
+    
+    "Common Name" : "Costmary",
+    "Parts Used" : "whole herb",
+    "Latin Name" : "Chrysanthemum\nbalsamita",
+    "Family" : "Compositae",
+    "Properties and Uses" : "fragrance, teas, herb pillows, soups,\nbitter stomachic, tonic, blood purifier",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Cramp Bark",
+    "Parts Used" : "bark",
+    "Latin Name" : "Viburnum opulus",
+    "Family" : "Caprifoliaceae",
+    "Properties and Uses" : "PMS antispasmodic, astringent,\nnervine",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Cubeb",
+    "Parts Used" : "dried unripe\nfruit",
+    "Latin Name" : "Piper cubeba",
+    "Family" : "Piperaceae",
+    "Properties and Uses" : "spice, aphrodisiac, to heal mucous\nmembranes (as a counterirritant?)",
+    "Chemical Constituents" : "terpenes, sesquiterpenes,\nfuranobenze, dipentene,\ncadinene"
+},
+{
+   
+    "Common Name" : "Cumin",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Cuminum cyminum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, liniment",
+    "Chemical Constituents" : "para-substituted\nisopropylbenzenes,\ncuminaldehyde"
+},
+{
+    
+    "Common Name" : "Damiana",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Turnera aphrodisiaca, T.\ndiffusa",
+    "Family" : "Turneraceae",
+    "Properties and Uses" : "tea, smokable, aphrodisiac,\neuphoriant, antipyretic, tonic,\npurgative, GI irritant",
+    "Chemical Constituents" : "volatile oil"
+},
+{
+   
+    "Common Name" : "Dandelion",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Taraxacum officinale",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "hepatic tonic, diuretic, stomachic,\nantilithic, astringent, cholagogue",
+    "Chemical Constituents" : "taraxerol, choline, levulin,\ninulin, pectin"
+},
+{
+    
+    "Common Name" : "Devil's Club",
+    "Parts Used" : "roots, bark,\nleaves",
+    "Latin Name" : "Oplopanax horridus",
+    "Family" : "Araliaceae",
+    "Properties and Uses" : "stomachic, antispasmodic, vulnerary,\ntoothache agent, tonic, charm",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Dill",
+    "Parts Used" : "seeds,\nflowers",
+    "Latin Name" : "Anethum graveolens",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, carminative, stomachic,\nnervine",
+    "Chemical Constituents" : "dillapiole"
+},
+{
+   
+    "Common Name" : "Dita",
+    "Parts Used" : "bark",
+    "Latin Name" : "Alstonia scholaris\n(Echites scholaris)",
+    "Family" : "Apocynaceae",
+    "Properties and Uses" : "tonic, astringent, anthelmintic,\nantimalarial, hallucinogen",
+    "Chemical Constituents" : "chlorogenine, echitamine,\nechitenine, alsonine,\nporphyrine"
+},
+{
+    
+    "Common Name" : "Dittany, Maryland",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Cunila origanoides",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, herb, tea",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Dittany of Crete",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Origanum dictamnus",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, antiseptic, preservative",
+    "Chemical Constituents" : "carvacrol, thymol"
+},
+{
+    
+    "Common Name" : "Dragon's Blood",
+    "Parts Used" : "tree resin",
+    "Latin Name" : "Daemonorops draco",
+    "Family" : "Palmaceae",
+    "Properties and Uses" : "charm, dye, tannin source",
+    "Chemical Constituents" : "sap"
+},
+{
+    
+    "Common Name" : "Echinacea",
+    "Parts Used" : "rhizome",
+    "Latin Name" : "Echinacea purpurea, E.\nangustifolia, E. spp.",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "alterative, contact parisiticide,\nantiseptic, sialogogue, analgesic,\nimmune system stimulant",
+    "Chemical Constituents" : "inulin, sucrose, 2-methlytetradecadienes,\nechinacein, caffeic glycoside"
+},
+{
+    
+    "Common Name" : "Elderberry",
+    "Parts Used" : "flowers,\nfruits, bark",
+    "Latin Name" : "Sambucus nigra, S.\ncanadensis, S. cerulea",
+    "Family" : "Caprifoliaceae",
+    "Properties and Uses" : "aperient, diuretic, dye, diaphoretic,\ncough syrup, PMS antispasmodic,\nsedative, HCN toxicity, esp. in bark of\nN. Am. spp.",
+    "Chemical Constituents" : "cyanogenic glycoside,\nsambuline, viburnic acid,\ntyrosine, tannic acid"
+},
+{
+   
+    "Common Name" : "Elecampane",
+    "Parts Used" : "root",
+    "Latin Name" : "Inula helenium",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "tonic, charm, expectorant, diuretic,\nastringent",
+    "Chemical Constituents" : "inulin, alantol, helenin, alantic\nacid, resin"
+},
+{
+    
+    "Common Name" : "Epazote",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Chenopodium\nambrosioides",
+    "Family" : "Chenopodiaceae",
+    "Properties and Uses" : "seasoning, anthelmintic, toxic in\nquantity",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Eucalyptus",
+    "Parts Used" : "leaves,\npods",
+    "Latin Name" : "Eucalyptus globulus",
+    "Family" : "Myrtaceae",
+    "Properties and Uses" : "spice, astringent, anti-diarrheal,\nexpectorant",
+    "Chemical Constituents" : "volatile oil, resins, tannin,\neucalyptic acid, rutin"
+},
+{
+   
+    "Common Name" : "Evening Primrose",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Oenothera biennis, O.\nspp.",
+    "Family" : "Onagraceae",
+    "Properties and Uses" : "astringent, sedative, anti-aging agent,\nPMS treatment, potherb",
+    "Chemical Constituents" : "gamma-linoleic acid (GLA,a\nprostaglandin precursor)"
+},
+{
+   
+    "Common Name" : "Eyebright",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Euphrasia officinalis",
+    "Family" : "Scrophulariaceae",
+    "Properties and Uses" : "alterative, astringent for eye strain",
+    "Chemical Constituents" : "tannin, bitter principle"
+},
+{
+   
+    "Common Name" : "False Unicorn",
+    "Parts Used" : "root",
+    "Latin Name" : "Helonias dioica\n(Chamaelirium luteum),\nH. luteum",
+    "Family" : "Liliaceae",
+    "Properties and Uses" : "formerly used for conception, sexual\ntonic, emetic, sialogogue, parisiticide,\n~toxic to livestock",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Fennel",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Foeniculum vulgare",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "spice, digestive aid, carminative,\nexpectorant, mild stimulant, cold\ntreatment",
+    "Chemical Constituents" : "anethole"
+},
+{
+    
+    "Common Name" : "Fenugreek",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Trigonella foenum-graecum",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "spice, bulk laxative, horse's cure-all,\ndemulcent, aphrodisiac, astringent,\nemollient, tonic, expectorant,\ngalactagogue, GI irritant",
+    "Chemical Constituents" : "protein, choline, phosphates,\ntrigonelline, volatile oil"
+},
+{
+    
+    "Common Name" : "Feverfew",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Pyrethrum parthenium,\nChrysanthemum\nparthenium",
+    "Family" : "Asteraceae",
+    "Properties and Uses" : "tonic, emmenagogue, anthelmintic,\nmild stimulant, emetic, can cause\nheadache & CNS disturbances",
+    "Chemical Constituents" : "pyrethrins, insecticidal\ncompounds"
+},
+{
+
+    "Common Name" : "Flax",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Linum usitatissimum, L.\nspp.",
+    "Family" : "Linaceae",
+    "Properties and Uses" : "demulcent, emmollient, bulk former,\nmucilage, laxative",
+    "Chemical Constituents" : "mucilage, wax, tannin, gum,\ncyanogenic glycosides"
+},
+{
+   
+    "Common Name" : "Fleeceflower",
+    "Parts Used" : "root",
+    "Latin Name" : "Polygonum multiflorum",
+    "Family" : "Polygonaceae",
+    "Properties and Uses" : "general and reproductive female\ntonic, diuretic",
+    "Chemical Constituents" : "oxalates"
+},
+{
+    
+    "Common Name" : "Frankincense",
+    "Parts Used" : "gum resin",
+    "Latin Name" : "Boswellia carteri",
+    "Family" : "Burseraceae",
+    "Properties and Uses" : "perfume, incense",
+    "Chemical Constituents" : "volatile oil, resins, gum,\nbassorin"
+},
+{
+   
+    "Common Name" : "Galangal",
+    "Parts Used" : "rhizome",
+    "Latin Name" : "Alpinia galanga, A.\nofficinarum, Kaempferia\ngalanga",
+    "Family" : "Zingiberaceae",
+    "Properties and Uses" : "respiratory stimulant, toothache\nagent, demulcent, antibacterial,\nhallucinogen",
+    "Chemical Constituents" : "flavonoids"
+},
+{
+    
+    "Common Name" : "Ganja",
+    "Parts Used" : "flowering\ntops",
+    "Latin Name" : "Cannabis sativa",
+    "Family" : "Cannabinaceae",
+    "Properties and Uses" : "appetite stimulant, antiemetic,\neuphoriant, mild hallucinogen, can\ncause tachycardia, lowers blood\npressure",
+    "Chemical Constituents" : "tetrahydrocannibinol (THC),\nan oxygenated terpene\nderivative"
+},
+{
+   
+    "Common Name" : "Garlic",
+    "Parts Used" : "bulbs",
+    "Latin Name" : "Allium sativum",
+    "Family" : "Amaryllidaceae",
+    "Properties and Uses" : "spice, bacteriostat, alterative,\nantibiotic, expectorant,\nantihypertensive, antihyperlipidemic,\nused for heart benefits, GI irritant",
+    "Chemical Constituents" : "allyl disulfides"
+},
+{
+    
+    "Common Name" : "Gentian",
+    "Parts Used" : "root",
+    "Latin Name" : "Gentiana lutea",
+    "Family" : "Gentianaceae",
+    "Properties and Uses" : "bitter tonic, stomachic, appetite mild\nstimulant, digestive aid",
+    "Chemical Constituents" : "water-soluble phenolic\nglycosides, gentiopicrin,\ngentiamarin, gentiin"
+},
+{
+    
+    "Common Name" : "Geranium,\nScented",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Pelargonium\nodoratissimum",
+    "Family" : "Geraniaceae",
+    "Properties and Uses" : "mouthwash, ointment",
+    "Chemical Constituents" : "geraniol esters, citronellol,\nlinalool"
+},
+{
+    
+    "Common Name" : "Gill-Over-The-Ground",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Glechoma hederacea",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "mild stimulant, tonic, beer flavoring",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Ginger",
+    "Parts Used" : "root",
+    "Latin Name" : "Zingiber officinale",
+    "Family" : "Zingiberaceae",
+    "Properties and Uses" : "spice, carminative, diaphoretic, mild\nstimulant, GI irritant",
+    "Chemical Constituents" : "citral, zingerone,\nsesquiterpenes, bisabolene"
+},
+{
+   
+    "Common Name" : "Ginger, Wild",
+    "Parts Used" : "rhizomes",
+    "Latin Name" : "Asarum canadense, A.\ncaudatum",
+    "Family" : "Aristolochiaceae",
+    "Properties and Uses" : "mild stimulant, stomachic",
+    "Chemical Constituents" : "methyl eugenol"
+},
+{
+   
+    "Common Name" : "Ginkgo",
+    "Parts Used" : "leaves,\nseeds",
+    "Latin Name" : "Ginkgo biloba",
+    "Family" : "Ginkgoaceae",
+    "Properties and Uses" : "roasted seeds as a culinary, leaves\nas a memory enhancer",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Ginseng",
+    "Parts Used" : "root",
+    "Latin Name" : "Panax ginseng",
+    "Family" : "Araliaceae",
+    "Properties and Uses" : "tea, mental stimulant, alterative,\nstomachic, tonic, can lower blood\nsugar",
+    "Chemical Constituents" : "gingenosides, sapogenins,\nginsenin, mucilage, resin"
+},
+{
+    
+    "Common Name" : "Goldenrod, Sweet",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Solidago odora",
+    "Family" : "Compositae",
+    "Properties and Uses" : "teas",
+    "Chemical Constituents" : "anise-like volatile oil"
+},
+{
+    
+    "Common Name" : "Goldenseal",
+    "Parts Used" : "root",
+    "Latin Name" : "Hydrastis canadensis",
+    "Family" : "Ranunculaceae",
+    "Properties and Uses" : "astringent, hemostatic, douche,\nantibiotic, emmenagogue, antiseptic,\nsmooth muscle stimulant, dyspeptic,\nhypotensive",
+    "Chemical Constituents" : "hydrastine, berberine-type\nalkaloids"
+},
+{
+  
+    "Common Name" : "Goldthread",
+    "Parts Used" : "root, plant",
+    "Latin Name" : "Coptis trifolia, C.\ngroenlandica, C. spp.",
+    "Family" : "Ranunculaceae",
+    "Properties and Uses" : "bitter tonic, oral hemostatic",
+    "Chemical Constituents" : "berberine, coptine"
+},
+{
+   
+    "Common Name" : "Gotu-Kola",
+    "Parts Used" : "above-ground\nparts",
+    "Latin Name" : "Hydrocotyle asiatica var.\nminor, (Centella asiatica)",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "memory stimulant, nervine, psychic\nenergizer, alterative, antipyretic,\ntonic, diuretic",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Grains of\nParadise",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Aframomum melegueta",
+    "Family" : "Zingiberaceae",
+    "Properties and Uses" : "spice, cordial",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Gravel Root",
+    "Parts Used" : "root",
+    "Latin Name" : "Eupatorium purpureum",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "bitter, strong antilithic, diuretic,\nastringent",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Guarana",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Paulinia cupana",
+    "Family" : "Sapindaceae",
+    "Properties and Uses" : "mild CNS stimulant, can cause\nnervousness, irritates ulcers, mucous\nmembranes",
+    "Chemical Constituents" : "xanthines"
+},
+{
+    
+    "Common Name" : "Hawthorn",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Crataegus monogyna, C.\nspp.",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "cardiac tonic, diuretic, astringent,\nantispasmodic, sedative",
+    "Chemical Constituents" : "triterpene acids, flavonoids,\ncholine, acetylcholine,\nascorbic acid"
+},
+{
+    
+    "Common Name" : "Henna",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Lawsonia inermis, L.\nalba, L. spinosa",
+    "Family" : "Lythraceae",
+    "Properties and Uses" : "hair dye, externally for impotence,\nfungicide, ~allergen",
+    "Chemical Constituents" : "lawsone"
+},
+{
+   
+    "Common Name" : "Hibiscus",
+    "Parts Used" : "stems,\nflowers",
+    "Latin Name" : "Hibiscus spp.",
+    "Family" : "Malvaceae",
+    "Properties and Uses" : "tea, mild stimulant, fiber mats, rope",
+    "Chemical Constituents" : "flavonoids"
+},
+{
+    
+    "Common Name" : "Hops",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Humulus lupulus",
+    "Family" : "Cannabinaceae",
+    "Properties and Uses" : "tea, used in brewing beer, antiseptic,\nstomachic, diuretic, nervine,\ncarminative, anodyne, cholagogue,\nsedative, smokable",
+    "Chemical Constituents" : "humulene (a sesquiterpene),\nlupulon"
+},
+{
+   
+    "Common Name" : "Horehound",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Marrubium vulgare",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "expectorant, carminative, mild\nstimulant, charm, diaphoretic, tonic,\ncandy",
+    "Chemical Constituents" : "tannin, marrubin (a bitter\nhydroxy diterpene lactone)"
+},
+{
+    
+    "Common Name" : "Horse Mint",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Collinsonia canadensis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "gentle tonic, mild stimulant, diuretic,\nanti-diarrheal",
+    "Chemical Constituents" : "resin, saponin, tannin,\nmucilage"
+},
+{
+   
+    "Common Name" : "Horseradish",
+    "Parts Used" : "roots",
+    "Latin Name" : "Armoracia lapathifolia, A.\nrusticana, Rorippa\narmoracia, Cochleria\namoracia",
+    "Family" : "Brassicaceae",
+    "Properties and Uses" : "spice, herb, diaphoretic, diuretic,\nstomachic, expectorant",
+    "Chemical Constituents" : "myrosin, sinigrin, choline\nesters of allylisothiocyanates,\nN-sulfates"
+},
+{
+    
+    "Common Name" : "Horsetail",
+    "Parts Used" : "foliage",
+    "Latin Name" : "Equisetum arvense, E.\nspp.",
+    "Family" : "Equisetaceae",
+    "Properties and Uses" : "astringent, abrasive, diuretic, mineral\nsource, can cause muscle weakness,\nabnormal pulse, hypertension",
+    "Chemical Constituents" : "silica, nicotine, aconitic acid,\nequisitine"
+},
+{
+    
+    "Common Name" : "Hyssop",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Hyssopus officinalis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "pungent spice, poultice, expectorant,\nmild stimulant, diaphoretic",
+    "Chemical Constituents" : "pinene, sesquiterpenes"
+},
+{
+    
+    "Common Name" : "Indigo, Wild",
+    "Parts Used" : "root, leaves",
+    "Latin Name" : "Baptisia tinctoria",
+    "Family" : "Leguminoaeae",
+    "Properties and Uses" : "purgative, emetic, vulnerary, can\ncause heart arrythmias",
+    "Chemical Constituents" : "glucosides: baptisin,\nbaptitoxine (cytisine), alkaloid"
+},
+{
+    
+    "Common Name" : "Iris",
+    "Parts Used" : "root",
+    "Latin Name" : "Iris X florentina",
+    "Family" : "Iridaceae",
+    "Properties and Uses" : "purgative, floral fixative, ~toxic,\n~allergen",
+    "Chemical Constituents" : "iridin, oleoresin, tannin, gum,\ncamphoraceous substance"
+},
+{
+    
+    "Common Name" : "Irish Moss",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Chondrus crispus\n(various seaweeds)",
+    "Family" : "Gigartinaceae\n(seaweed)",
+    "Properties and Uses" : "demulcent, nutrient, diet aid, bulk\nformer, emollient",
+    "Chemical Constituents" : "polysaccharides"
+},
+{
+   
+    "Common Name" : "Jalap",
+    "Parts Used" : "root",
+    "Latin Name" : "Ipomoea purga",
+    "Family" : "Convolvulaceae",
+    "Properties and Uses" : "drastic purgative",
+    "Chemical Constituents" : "resin, gum, sugar"
+},
+{
+   
+    "Common Name" : "Jasmine",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Jasminum officinale",
+    "Family" : "Oleaceae",
+    "Properties and Uses" : "tea, incense, florals",
+    "Chemical Constituents" : "jasmone"
+},
+{
+   
+    "Common Name" : "Jujube",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Zizyphus jujuba, Ziziphus\njujuba",
+    "Family" : "Rhamnaceae",
+    "Properties and Uses" : "flavoring for candies",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Juniper",
+    "Parts Used" : "fruits",
+    "Latin Name" : "Juniperus communis",
+    "Family" : "Pinaceae",
+    "Properties and Uses" : "urinary and general antiseptic,\nflavoring for gin, diuretic, overdose\ncan cause kidney and personality\ndisorders, convulsions, catharsis",
+    "Chemical Constituents" : "terpinenol, alpha-pinene,\ncamphene, cadinene"
+},
+{
+   
+    "Common Name" : "Kava-kava",
+    "Parts Used" : "root",
+    "Latin Name" : "Piper methysticum",
+    "Family" : "Piperaceae",
+    "Properties and Uses" : "stimulant tea, or narcotic when\nthoroughly chewed, causes skin\nlesions amongst the habituated",
+    "Chemical Constituents" : "methysticin, yangonin,\ndihydrokawain"
+},
+{
+   
+    "Common Name" : "Kelp",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Laminaria spp., Fucus\nspp., Sargassum spp.,\nMacrosytica spp., etc.",
+    "Family" : "Seaweed",
+    "Properties and Uses" : "nutritive, mineral source, demulcent,\nbulk laxative, can cause water\nretention",
+    "Chemical Constituents" : "iodine, bromine, alginic acid"
+},
+{
+
+    "Common Name" : "Khat",
+    "Parts Used" : "fresh\nleaves",
+    "Latin Name" : "Catha edulis",
+    "Family" : "Celastraceae",
+    "Properties and Uses" : "CNS & spinal stimulant, can cause\ntachycardia & nervousness",
+    "Chemical Constituents" : "choline, cathine, cathinone,\nd-norpseudoephedrine"
+},
+{
+   
+    "Common Name" : "Khus-Khus",
+    "Parts Used" : "roots",
+    "Latin Name" : "Vetiveria zizanioides,\nAndropogon muricatus",
+    "Family" : "Gramineae",
+    "Properties and Uses" : "perfume fixative, insect repellant",
+    "Chemical Constituents" : "vetiverone, a C-15 terpene,\nvetivenoids, palmitic, benzoic\nacids"
+},
+{
+    
+    "Common Name" : "Kinnikinnick",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Arctostaphylos uva-ursi",
+    "Family" : "Ericaceae",
+    "Properties and Uses" : "smokable, diuretic, antiseptic, GI\nastringent, mild CNS depressant",
+    "Chemical Constituents" : "arbutin (hydrolyses to\nhydroquinolone), flavonoids,\ngallic, malic acids"
+},
+{
+   
+    "Common Name" : "Kuthmithi",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Wiltharia somnifera",
+    "Family" : "Solanaceae",
+    "Properties and Uses" : "sedative, tranquilizer, tonic",
+    "Chemical Constituents" : "somniferine, possibly other\ntoxic alkaloids"
+},
+{
+   
+    "Common Name" : "Labrador Tea",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Ledum palustre, L.\ngroenlandicum, L.\nglandulosum",
+    "Family" : "Ericaceae",
+    "Properties and Uses" : "bitter astringent, vulnerary, can cause\ncause kidney disorders",
+    "Chemical Constituents" : "ledol"
+},
+{
+    
+    "Common Name" : "Lad's Love",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Artemisia abrotanum",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "culinary, astringent, bitter tonic",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Lady's Mantle",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Alchemilla vulgaris",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "astringent, hemostatic, vulnerary",
+    "Chemical Constituents" : "tannins"
+},
+{
+    
+    "Common Name" : "Lady's Slipper",
+    "Parts Used" : "root",
+    "Latin Name" : "Cyprepedium pubescens,\nCypripedium spp.",
+    "Family" : "Orchidaceae",
+    "Properties and Uses" : "nervine, antispasmodic, sedative,\noverharvesting is leading to species\nendangerment",
+    "Chemical Constituents" : "tannin, resins"
+},
+{
+   
+    "Common Name" : "Lavender",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Lavandula vera,\nLavandula spp.",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "sachets, perfumes, bath oils",
+    "Chemical Constituents" : "eucalyptol, borneol, camphor,\nlinalool, terpineol"
+},
+{
+   
+    "Common Name" : "Lemon Balm",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Melissa officinalis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, herb, fragrance, diaphoretic,\nsedative",
+    "Chemical Constituents" : "citral, linalool, geraniol"
+},
+{
+    
+    "Common Name" : "Lemon Grass",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Cymbopogon citratus",
+    "Family" : "Gramineae",
+    "Properties and Uses" : "incense, pesticide, perfume,\ncarminative",
+    "Chemical Constituents" : "methyl heptenone, citronellal,\nterpene alcohols"
+},
+{
+  
+    "Common Name" : "Lettuce, Wild",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Lactuca virosa, Lactuca\nquercina",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "mild narcotic, analgesic, sedative",
+    "Chemical Constituents" : "lactucarine"
+},
+{
+   
+    "Common Name" : "Licorice",
+    "Parts Used" : "root",
+    "Latin Name" : "Glycyrrhiza glabra",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "aphrodisiac, stomachic, aperient,\nexpectorant, antispasmodic,\nandrogenic steroid agent, can cause\nmineral retantion, hypertension",
+    "Chemical Constituents" : "glycyrrhizin (a mild mineral\ncorticoid), gum, tannin,\npentacyclic terpenes"
+},
+{
+   
+    "Common Name" : "Life Everlasting",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Gnaphalium\npolycephalum",
+    "Family" : "Asteraceae",
+    "Properties and Uses" : "astringent, vulnerary for mouth",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Linden",
+    "Parts Used" : "flowers,\nleaves",
+    "Latin Name" : "Tilia europaea, T. spp.",
+    "Family" : "Tiliaceae",
+    "Properties and Uses" : "stomachic, sialogogue",
+    "Chemical Constituents" : null
+},
+{
+  
+    "Common Name" : "Lobelia",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Lobelia inflata",
+    "Family" : "Lobeliaceae",
+    "Properties and Uses" : "expectorant, stimulant-depressant,\nemetic, can cause tolerance",
+    "Chemical Constituents" : "Alpha-lobeline (a di-(hydroxy-ethyl-phenyl) - 2 - piperidine,\na compound related to\ntobacco alkaloids)"
+},
+{
+   
+    "Common Name" : "Lotus",
+    "Parts Used" : "flower\ncapsules",
+    "Latin Name" : "Nelumbo spp.",
+    "Family" : "Nelumbonaceae",
+    "Properties and Uses" : "culinary, soup thickener",
+    "Chemical Constituents" : "starch"
+},
+{
+   
+    "Common Name" : "Lovage",
+    "Parts Used" : "root",
+    "Latin Name" : "Ligusticum levisticum,\nLevisticum officinale",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "mild stimulant, carminative,\nemmenagogue, stomachic",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Love Vine",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Cuscuta spp.",
+    "Family" : "Cuscutaceae",
+    "Properties and Uses" : "laxative",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Ma-Huang",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Ephedra sinica",
+    "Family" : "Gnetaceae",
+    "Properties and Uses" : "decongestant, CNS stimulant, can\ncause nervousness, hypertension",
+    "Chemical Constituents" : "ephedrine"
+},
+{
+    
+    "Common Name" : "Madder",
+    "Parts Used" : "roots",
+    "Latin Name" : "Rubia tinctorum",
+    "Family" : "Rubiaceae",
+    "Properties and Uses" : "alizarin crimson dye",
+    "Chemical Constituents" : "anthraquinones"
+},
+{
+   
+    "Common Name" : "Magnolia",
+    "Parts Used" : "bark",
+    "Latin Name" : "Magnolia glauca",
+    "Family" : "Magnoliaceae",
+    "Properties and Uses" : "bitter tonic, diaphoretic",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Maha",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Quararibea funebris",
+    "Family" : "Bombacaceae",
+    "Properties and Uses" : "perfume, flavoring for chocolate\ndrinks at funerals & festivals,\nhallucinogen",
+    "Chemical Constituents" : "5 - membered cyclic enols\nand enamines"
+},
+{
+    
+    "Common Name" : "Malva",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Malva spp.",
+    "Family" : "Malvaceae",
+    "Properties and Uses" : "black potpourri color",
+    "Chemical Constituents" : "pectin, tannin"
+},
+{
+   
+    "Common Name" : "Marjoram",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Origanum vulgare",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, carminative, digestive aid",
+    "Chemical Constituents" : "limonene, other terpenes"
+},
+{
+   
+    "Common Name" : "Marshmallow",
+    "Parts Used" : "root",
+    "Latin Name" : "Althea officinalis",
+    "Family" : "Malvaceae",
+    "Properties and Uses" : "demulcent, emollient, poultice",
+    "Chemical Constituents" : "asparagine, mucilage, sugar,\npectin"
+},
+{
+    
+    "Common Name" : "Matico",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Piper angustifolium",
+    "Family" : "Piperaceae",
+    "Properties and Uses" : "astringent, sex stimulant, urinary\nantiseptic (GI irritant?)",
+    "Chemical Constituents" : "Matico camphor, asarone"
+},
+{
+   
+    "Common Name" : "Mistletoe",
+    "Parts Used" : "stems",
+    "Latin Name" : "Phoradendron flavescens",
+    "Family" : "Loranthaceae",
+    "Properties and Uses" : "charm, emetic, hemorragic, can\ncause CV collapse, weak pulse,\nvasodilation, smooth muscle\ncontractions",
+    "Chemical Constituents" : "tyramine, phenethylamines"
+},
+{
+   
+    "Common Name" : "Mormon Tea",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Ephedra vulgaris, E.\ntrifurca, E. spp.",
+    "Family" : "Gnetaceae",
+    "Properties and Uses" : "nasal decongestant, CNS stimulant,\ncan cause nervousness",
+    "Chemical Constituents" : "ephedrine"
+},
+{
+    
+    "Common Name" : "Morning Glory",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Ipomoea violacea,\nArgyriea nervosa",
+    "Family" : "Convolvulaceae",
+    "Properties and Uses" : "hallucinogen, purgative, abortifacient,\ncan cause gangrene",
+    "Chemical Constituents" : "lysergamides"
+},
+{
+   
+    "Common Name" : "Motherwort",
+    "Parts Used" : "above-ground\nparts",
+    "Latin Name" : "Leonurus cardiaca",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "nervine, cardiac tonic,\nemmenagogue, antispasmodic,\ndiaphoretic, laxative, PMS nervine",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Mugwort",
+    "Parts Used" : "leaves,\nflowers",
+    "Latin Name" : "Artemisia vulgaris",
+    "Family" : "Compositeae",
+    "Properties and Uses" : "acupuncture moxybustion, dream\nherb, nervine, diuretic, diaphoretic",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Muira Pauma",
+    "Parts Used" : "wood\nshavings",
+    "Latin Name" : "Liriosma ovata, Acanthea\nvirilis",
+    "Family" : "Olacaceae",
+    "Properties and Uses" : "aphrodisiac",
+    "Chemical Constituents" : "aromatic resin,\nmuirapaumine, fat"
+},
+{
+    
+    "Common Name" : "Mullein",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Verbascum thapsus",
+    "Family" : "Scrophulariaceae",
+    "Properties and Uses" : "smokable, demulcent, rubefacient,\nastringent, counter-irritant,\nexpectorant",
+    "Chemical Constituents" : "saponins"
+},
+{
+    
+    "Common Name" : "Mustard",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Brassica nigra",
+    "Family" : "Cruciferae",
+    "Properties and Uses" : "spice, poultice, counterirritant,\ncarminative, rubefacient",
+    "Chemical Constituents" : "myrosin, sinigrin, choline\nesters of allylisothiocyanates,\nN-sulfates"
+},
+{
+
+    "Common Name" : "Myrrh",
+    "Parts Used" : "gum resin",
+    "Latin Name" : "Commiphora myrra",
+    "Family" : "Burseraceae",
+    "Properties and Uses" : "incense, local stimulant, antiseptic,\nexpectorant, mouthwash, embalming\nfluid, carminative",
+    "Chemical Constituents" : "resin, acetic, formic,\nmyrrholic acids"
+},
+{
+    
+    "Common Name" : "Myrtle",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Myrtus communis",
+    "Family" : "Myrtaceae",
+    "Properties and Uses" : "fragrance, infusion, gargle",
+    "Chemical Constituents" : "eucalyptol, d-pinene"
+},
+{
+   
+    "Common Name" : "Neem",
+    "Parts Used" : "seeds,\nleaves",
+    "Latin Name" : "Azadirachta indica (Melia\nazadirachta)",
+    "Family" : "Meliaceae",
+    "Properties and Uses" : "timber, antibacterial, antiemetic,\nsoap, toothpaste, insecticide,\nantipyretic, vulnerary",
+    "Chemical Constituents" : "glycerides, nimbin, a terpenic\nester, bitters"
+},
+{
+   
+    "Common Name" : "Nettles",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Urtica dioica",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "potherb, vitamin, protein, alterative,\nantiseptic, hemostatic, nutritive",
+    "Chemical Constituents" : "vitamins, A, C, protein"
+},
+{
+    
+    "Common Name" : "Nutmeg",
+    "Parts Used" : "seed, aril\n(as mace)",
+    "Latin Name" : "Myristica fragrans",
+    "Family" : "Myristaceae",
+    "Properties and Uses" : "emmenagogue, spice, aphrodisiac,\nmild stimulant, mild hallucinogen",
+    "Chemical Constituents" : "myristicin, elemicin, eugenols"
+},
+{
+   
+    "Common Name" : "Oat Straw",
+    "Parts Used" : "stems,\nleaves",
+    "Latin Name" : "Avena sativa",
+    "Family" : "Gramineae",
+    "Properties and Uses" : "nutrient, demulcent, antidepressant,\nnervine, tonic, antispasmodic,\ndigestive aid, motor ganglial stimulant",
+    "Chemical Constituents" : "albumin, gum, protein,\nsaponin, avenin"
+},
+{
+    
+    "Common Name" : "Onion",
+    "Parts Used" : "bulbs",
+    "Latin Name" : "Allium sativum",
+    "Family" : "Amaryllidaceae",
+    "Properties and Uses" : "culinary, spice",
+    "Chemical Constituents" : "allyl disulfides"
+},
+{
+   
+    "Common Name" : "Oregano",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Origanum major, O.\nvulgare",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, seasoning herb",
+    "Chemical Constituents" : "terpenes"
+},
+{
+    
+    "Common Name" : "Osha",
+    "Parts Used" : "roots",
+    "Latin Name" : "Ligusticum porteri",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "stomachic, respiratory agent,\nantipyretic, snakebite agent",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Parsley",
+    "Parts Used" : "leaves,\nseeds",
+    "Latin Name" : "Petroselinum crispum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "herb, diuretic, can raise blood\npressure",
+    "Chemical Constituents" : "pinene, apiole"
+},
+{
+    
+    "Common Name" : "Passion Flower",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Passiflora incarnata, P.\nedulis",
+    "Family" : "Passifloraceae",
+    "Properties and Uses" : "smokable, spinal depressant,\nrespiratory stimulant, nervine,\nantispasmodic, sedative, diaphoretic",
+    "Chemical Constituents" : "beta-carbolines, cyanogenic\nglycosides, contains HCN"
+},
+{
+   
+    "Common Name" : "Patchouli",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Pogostemon cablin",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "incense, cosmetic",
+    "Chemical Constituents" : "patchoulene, azulene,\neugenol, benzaldehyde,\ncinnamaldehyde,\nsesquiterpene"
+},
+{
+   
+    "Common Name" : "Pau d'Arco",
+    "Parts Used" : null,
+    "Latin Name" : "Tabebuia impetiginosa",
+    "Family" : "Bignoniaceae",
+    "Properties and Uses" : "immune stimulant, anti-allergen, anti-carcinogen, anti-fungal, avoid if\npregnant",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Pennyroyal",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Mentha pulegium",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "herb, carminative, diaphoretic,\npedicullicide, mild CNS depressant,\noverdose can cause kidney damage",
+    "Chemical Constituents" : "pulegone"
+},
+{
+   
+    "Common Name" : "Pepper, Red",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Capsicum tetragonum, C.\nannuum, C. frutescens,\nC. spp.",
+    "Family" : "Solanaceae",
+    "Properties and Uses" : "spice, GI stimulant, nerve ending\nstimulant, counter-irritant, irritates\nulcers and mucous membranes",
+    "Chemical Constituents" : "vanillyl noneamides,\ncarotenoids"
+},
+{
+   
+    "Common Name" : "Peppercorns",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Piper nigrum",
+    "Family" : "Piperaceae",
+    "Properties and Uses" : "spice, digestive stimulant, mucous\nmembrane irritant",
+    "Chemical Constituents" : "piperidines, piperazines"
+},
+{
+    
+    "Common Name" : "Peppermint",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Mentha piperita",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "tea, spice, candies, antispasmodic,\ncarminative",
+    "Chemical Constituents" : "menthol, terpenes"
+},
+{
+   
+    "Common Name" : "Pink Root",
+    "Parts Used" : "root",
+    "Latin Name" : "Spigelia marilandica",
+    "Family" : "Loganiaceae",
+    "Properties and Uses" : "anthelmintic, can cause dizziness,\nheart palpitations",
+    "Chemical Constituents" : "spigeline, resin, tannin"
+},
+{
+    
+    "Common Name" : "Plantain, Narrow",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Plantago lanceolata",
+    "Family" : "Plantaginaceae",
+    "Properties and Uses" : "ointment for exzema, burns,\nhemmorroids, bowel pain, laxative,\nsee Psillium for Plantago seed",
+    "Chemical Constituents" : "xylin (a xylopyranose\nderivative related to\ncellulose)"
+},
+{
+    
+    "Common Name" : "Pollen",
+    "Parts Used" : "pollen from\nbees",
+    "Latin Name" : "Apis mellifera",
+    "Family" : "Insect product",
+    "Properties and Uses" : "sweetener, vitamin, nutrient",
+    "Chemical Constituents" : "sugars, vitamins B & C,\nminerals, hormones"
+},
+{
+    
+    "Common Name" : "Poppy",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Papaver somniferum",
+    "Family" : "Papaveraceae",
+    "Properties and Uses" : "culinary herb",
+    "Chemical Constituents" : "albuminoids, ethiodol,\nlipiodol, devoid of morphine\nalkaloids"
+},
+{
+    
+    "Common Name" : "Prickly Ash",
+    "Parts Used" : "stem bark",
+    "Latin Name" : "Zanthoxylum\n(Xanthoxyllum)\namericanum, Z. clava-herculis",
+    "Family" : "Rutaceae",
+    "Properties and Uses" : "tonic, antispasmodic, flavoring,\nalterative, rubefacient,\nemmenagogue, diaphoretic,\ncirculatory stimulant",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Prickly Poppy",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Argemone mexicana",
+    "Family" : "Papaveraceae",
+    "Properties and Uses" : "smooth muscle stimulant, causes\ncapillary dilation, can irritate\nglaucoma, emetic, purgative",
+    "Chemical Constituents" : "protopine, berberine,\ndihydrosanguinarine,\nsanguinarine"
+},
+{
+    
+    "Common Name" : "Prince's Pine",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Chimaphila umbellata, C.\nspp.",
+    "Family" : "Ericaceae",
+    "Properties and Uses" : "alterative, diuretic, astringent, tonic",
+    "Chemical Constituents" : "chimaphilin, arbutin, erecolin,\ntannins"
+},
+{
+   
+    "Common Name" : "Psillium",
+    "Parts Used" : "fruit, husks",
+    "Latin Name" : "Plantago ovata",
+    "Family" : "Plantaginaceae",
+    "Properties and Uses" : "antidiarrheal, bulk demulcent,\nlaxative, emollient, expectorant,\nastringent, see plantain for Plantago\nleaf",
+    "Chemical Constituents" : "colloidal mucilage"
+},
+{
+   
+    "Common Name" : "Pumpkin",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Cucurbita pepo",
+    "Family" : "Cucurbitaceae",
+    "Properties and Uses" : "GI stimulant, sexual hormone\nproduction stimulant",
+    "Chemical Constituents" : "protein, unsaturated fatty\nacids, carbohydrate,\nphosphorus"
+},
+{
+   
+    "Common Name" : "Raspberry",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Rubus ideaus, Rubus\nspp.",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "nutritive tea, antispasmodic,\nastringent",
+    "Chemical Constituents" : "citric acid, tannins"
+},
+{
+   
+    "Common Name" : "Rhubarb",
+    "Parts Used" : "stalks",
+    "Latin Name" : "Rheum officinale, R.\npalmatum",
+    "Family" : "Polygonaceae",
+    "Properties and Uses" : "laxative, astringent, sialogogue,\nstomachic",
+    "Chemical Constituents" : "anthraquinones"
+},
+{
+    
+    "Common Name" : "Rose",
+    "Parts Used" : "fruits (hips)",
+    "Latin Name" : "Rosa canina, R. spp.",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "vitamin C source, tea, astringent,\naperient",
+    "Chemical Constituents" : "vitamin C, geraniol, citronellol"
+},
+{
+   
+    "Common Name" : "Rosemary",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Rosmarinus officinalis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, herb, carminative, GI irritant",
+    "Chemical Constituents" : "pinene, camphene, borneol,\n& esters"
+},
+{
+    
+    "Common Name" : "Rue",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Ruta graveolens",
+    "Family" : "Rutaceae",
+    "Properties and Uses" : "nervine, anthelmintic, antispasmodic,\nemmenagogue, rubefacient, skin and\nkidney irritant",
+    "Chemical Constituents" : "methyl nonyl ketone & esters,\nketones, tannins, methyl\nanthranilate"
+},
+{
+    
+    "Common Name" : "Rue, Syrian",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Peganum harmala",
+    "Family" : "Zygophyllaceae",
+    "Properties and Uses" : "hallucinogen",
+    "Chemical Constituents" : "beta-carbolines"
+},
+{
+   
+    "Common Name" : "Safflower",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Carthamus tinctorius",
+    "Family" : "Compositae",
+    "Properties and Uses" : "floral, food dye, diaphoretic",
+    "Chemical Constituents" : "carthamin"
+},
+{
+   
+    "Common Name" : "Saffron",
+    "Parts Used" : "flower\nstigmas",
+    "Latin Name" : "Crocus sativus",
+    "Family" : "Iridaceae",
+    "Properties and Uses" : "spice, dye, respiratory stimulant,\naphrodisiac, rubefacient, can cause\nbradycardia",
+    "Chemical Constituents" : "alpha-crocin (a gentobiose of\ncrocetin)"
+},
+{
+    
+    "Common Name" : "Sage, Garden",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Salvia officinalis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, antisecretory, insect repellant,\nanthelmintic, astringent, perfume",
+    "Chemical Constituents" : "thujone, camphor, salvene"
+},
+{
+    
+    "Common Name" : "Sagebrush",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Artemisia tridentata",
+    "Family" : "Compositae",
+    "Properties and Uses" : "perfume, antibacterial",
+    "Chemical Constituents" : "camphor"
+},
+{
+   
+    "Common Name" : "Saint John's Wort",
+    "Parts Used" : "tops",
+    "Latin Name" : "Hypericum perforatum, H.\nspp.",
+    "Family" : "Hypericaceae",
+    "Properties and Uses" : "external astringent, alterative,\nnervine, sedative, antidepressant,\nantiviral, can cause dermatitis\nthrough ultraviolet light sensitivity",
+    "Chemical Constituents" : "hypericin, an 8-ringed\ncompound"
+},
+{
+    
+    "Common Name" : "Sandalwood",
+    "Parts Used" : "wood chips",
+    "Latin Name" : "Santalum album",
+    "Family" : "Santalaceae",
+    "Properties and Uses" : "incense, fumigant",
+    "Chemical Constituents" : "santalol and esters, bicyclic\nC-15 terpenes"
+},
+{
+    
+    "Common Name" : "Sarsaparilla",
+    "Parts Used" : "roots",
+    "Latin Name" : "Smilax officinalis, S.\nregelii, S. ornata, S. spp.",
+    "Family" : "Liliaceae",
+    "Properties and Uses" : "toothache, male hormone adjunct,\ntonic, diaphoretic, alterative",
+    "Chemical Constituents" : "resin, oxalates, phytosterols,\nadrenal hormones"
+},
+{
+   
+    "Common Name" : "Sassafrass",
+    "Parts Used" : "root bark",
+    "Latin Name" : "Sassafrass albidum",
+    "Family" : "Lauraceae",
+    "Properties and Uses" : "spice, tea, tonic, alterative,\ncarcinogen",
+    "Chemical Constituents" : "safrole"
+},
+{
+    
+    "Common Name" : "Savory, Summer",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Satureja hortensis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "herb, garnish",
+    "Chemical Constituents" : "carvacrol"
+},
+{
+   
+    "Common Name" : "Savory, Winter",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Satureja montana",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "herb, stronger than summer savory,\nliquers",
+    "Chemical Constituents" : "carvacrol"
+},
+{
+    
+    "Common Name" : "Saw Palmetto",
+    "Parts Used" : "fruits",
+    "Latin Name" : "Serenoa repens, S.\nserrulata",
+    "Family" : "Palmaceae",
+    "Properties and Uses" : "GI stimulant, glandular stimulant,\nbladder analgesic, tonic, antiseptic,\ncan cause diarrhea",
+    "Chemical Constituents" : "fatty acids and esters"
+},
+{
+   
+    "Common Name" : "Schisandra",
+    "Parts Used" : "fruits",
+    "Latin Name" : "Schisandra glabra, S. sp.",
+    "Family" : "Schisandraceae\n(Magnoliaceae)",
+    "Properties and Uses" : "ornamental, tonic, sedative",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Sea Holly",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Eryngium maritmum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "aphrodisiac, candies, nervine,\nalterative, carminative, diaphoretic,\ndiuretic, mild stimulant, expectorant,\nused in kidney & bladder disease",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Senna",
+    "Parts Used" : "leaves,\npods",
+    "Latin Name" : "Cassia species",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "laxative, anthelmintic, anti-griping\nagent, can cause dermatitis",
+    "Chemical Constituents" : "sitosterol, anthraquinone\nglycosides, chrysophanic,\nflavonoids, emodins"
+},
+{
+   
+    "Common Name" : "Sensitive Plant",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Mimosa pudica",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "smokable, sexual stimulant when\ntouched (!)",
+    "Chemical Constituents" : "tryptamines"
+},
+{
+    
+    "Common Name" : "Serpolet",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Thymus serpyphyllum",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "spice, antispasmodic, nervine,\nespecially for genital nerves",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Sesame",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Sesamum orientale, S.\nindicum",
+    "Family" : "Pedaliaceae",
+    "Properties and Uses" : "spice, aphrodisiac",
+    "Chemical Constituents" : "oil, Calcium"
+},
+{
+    
+    "Common Name" : "Shiso",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Perilla frutescens",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "sushi ginger spice, herb",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Skullcap",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Scutellaria lateriflora",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "smokable, sedative, antispasmodic,\nnervine",
+    "Chemical Constituents" : "scutellarin (a flavonoid),\ntannins"
+},
+{
+    
+    "Common Name" : "Slippery Elm",
+    "Parts Used" : "bark",
+    "Latin Name" : "Ulmus fulva",
+    "Family" : "Ulmaceae",
+    "Properties and Uses" : "astringent, nutritive for invalids,\ndemulcent",
+    "Chemical Constituents" : "mucilage, starch, oxalates,\npolysaccharides, tannins"
+},
+{
+    
+    "Common Name" : "Snakeroot,\nSeneca",
+    "Parts Used" : "root",
+    "Latin Name" : "Polygala senega",
+    "Family" : "Polygalaceae",
+    "Properties and Uses" : "purgative, expectorant, stimulates\nsecretions",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Snakeroot, Indian",
+    "Parts Used" : "roots",
+    "Latin Name" : "Rauwolfia serpentina",
+    "Family" : "Apocynaceae",
+    "Properties and Uses" : "strong tranquilizer, strong depressant\naction sometimes fatal",
+    "Chemical Constituents" : "rauwolfine, serpentine"
+},
+{
+    
+    "Common Name" : "Snakeroot,\nVirginia",
+    "Parts Used" : "root",
+    "Latin Name" : "Aristolochia serpentaria",
+    "Family" : "Aristolochiaceae",
+    "Properties and Uses" : "aromatic bitter, snakebite agent,\nemetic, can cause vertigo,\nabortifacient",
+    "Chemical Constituents" : "aristolochic acid, an aromatic\nnitrate"
+},
+{
+   
+    "Common Name" : "Solomon's Seal",
+    "Parts Used" : "root",
+    "Latin Name" : "Convallaria multiflora",
+    "Family" : "Liliaceae",
+    "Properties and Uses" : "tonic, demulcent, astringent, emetic,\ncontains potent and dangerous\ncardioactive glycosides",
+    "Chemical Constituents" : "constituents unknown, same\ngenus contains cardiac\nglycosides"
+},
+{
+    
+    "Common Name" : "Spearmint",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Mentha viridis",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "carminative, diaphoretic, diuretic,\nherb",
+    "Chemical Constituents" : "carvone, limonene, pinene"
+},
+{
+    
+    "Common Name" : "Speedwell",
+    "Parts Used" : "flowers",
+    "Latin Name" : "Veronica officinalis",
+    "Family" : "Scrophulariaceae",
+    "Properties and Uses" : "tonic, alterative, diuretic, expectorant,\ndiaphoretic",
+    "Chemical Constituents" : null
+},
+{
+    
+    "Common Name" : "Spicebush",
+    "Parts Used" : "leaves,\ntwigs",
+    "Latin Name" : "Lindera benzoin",
+    "Family" : "Lauraceae",
+    "Properties and Uses" : "tea, perfume, anthelmintic, antipyretic",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Spikenard,\nAmerican",
+    "Parts Used" : "root",
+    "Latin Name" : "Aralia racemosa, A.\nspinosa",
+    "Family" : "Araliaceae",
+    "Properties and Uses" : "mild stimulant, alterative, expectorant,\nflavoring",
+    "Chemical Constituents" : "starch, pectin, resin, active\ncompound not isolated"
+},
+{
+   
+    "Common Name" : "Star Anise",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Illicium verum",
+    "Family" : "Magnoliaceae",
+    "Properties and Uses" : "spice, mild stimulant, carminative",
+    "Chemical Constituents" : "anethole, phellandrene"
+},
+{
+   
+    "Common Name" : "Stevia",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Stevia rebaudiana",
+    "Family" : "Compositae",
+    "Properties and Uses" : "sweetener",
+    "Chemical Constituents" : "stevioside (a diterpene\nglycoside)"
+},
+{
+   
+    "Common Name" : "Storax",
+    "Parts Used" : "gum resin",
+    "Latin Name" : "Liquidambar styraciflua",
+    "Family" : "Hammamelidaceae",
+    "Properties and Uses" : "breath sweetener",
+    "Chemical Constituents" : "storesin, benzoates,\ncinnamates, cinnamic acid,\nstyrene"
+},
+{
+    
+    "Common Name" : "Strawberry",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Fragaria vesca, F. spp.",
+    "Family" : "Rosaceae",
+    "Properties and Uses" : "mild astringent, nutritive,\nantihistamine catalyst",
+    "Chemical Constituents" : "vitamin C, minerals,\ncatechins"
+},
+{
+   
+    "Common Name" : "Strychnine",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Strychnos nux-vomica",
+    "Family" : "Loganiaceae",
+    "Properties and Uses" : "catalyst, spinal stimulant, tonic, can\ncan cause rapid pulse, convulsions,\ndeath",
+    "Chemical Constituents" : "strychnine"
+},
+{
+   
+    "Common Name" : "Sumac",
+    "Parts Used" : "fruits",
+    "Latin Name" : "Rhus glabra, R.\naromatica, R. typhina, R.\nspp.",
+    "Family" : "Anacardiaceae",
+    "Properties and Uses" : "tea, astringent",
+    "Chemical Constituents" : "albumin, gum, tannin, resin,\nmalic acid"
+},
+{
+    
+    "Common Name" : "Sweet Cicely",
+    "Parts Used" : "root",
+    "Latin Name" : "Osmorrhiza odorata, O.\nspp., Myrrhis odorata",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "aromatic, carminative, expectorant,\nstomachic",
+    "Chemical Constituents" : "anise-like volatile oil"
+},
+{
+   
+    "Common Name" : "Tamarind",
+    "Parts Used" : "seed pulp",
+    "Latin Name" : "Tamarindus indica",
+    "Family" : "Leguminosae",
+    "Properties and Uses" : "sour flavoring, soup thickener,\ncurries, chutneys",
+    "Chemical Constituents" : "citric, malic acids, potassium,\ngum, pectin, grape sugar"
+},
+{
+   
+    "Common Name" : "Tansy",
+    "Parts Used" : "herb",
+    "Latin Name" : "Tanacetum vulgare",
+    "Family" : "Compositae",
+    "Properties and Uses" : "bitter tonic, anthelmintic, abortifacient,\ncan cause convulsions",
+    "Chemical Constituents" : "resins, thujone, camphor,\nborneol"
+},
+{
+   
+    "Common Name" : "Tarragon",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Artemisia dracunculus, A.\ndracunculoides",
+    "Family" : "Compositae",
+    "Properties and Uses" : "herb",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Tea",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Thea sinensis, Camellia\nsinensis",
+    "Family" : "Theaceae,\nTernstroemiaceae",
+    "Properties and Uses" : "CNS stimulant, anticarcinogen, can\ncause nervousness, can cause\ncardiac strain",
+    "Chemical Constituents" : "xanthines"
+},
+{
+   
+    "Common Name" : "Tea Tree",
+    "Parts Used" : "foliage",
+    "Latin Name" : "Melaleuca quinquenervia,\nM. cajuputi, M.\nalternifolia, M. spp.,\nLeptospermum ericoides,\nL. petersonii, L.\nscoparium, L. spp.",
+    "Family" : "Myrtaceae",
+    "Properties and Uses" : "timber, tea, antispasmodic,\ndiaphoretic, antiseptic, anthelmintic,\nmild stimulant, vulnerary, expectorant,\nvarious essential oils (cajuput, niaoli\nfrom Leptospermum spp., tea-tree oil\nfrom Melaleuca spp.), counter-irritant,\nelevates blood pressure",
+    "Chemical Constituents" : "cineol, terpineol, valeric,\nbenzoic and butyric\naldehydes"
+},
+{
+   
+    "Common Name" : "Teaberry",
+    "Parts Used" : "fruit",
+    "Latin Name" : "Gaultheria procumbens",
+    "Family" : "Ericaceae",
+    "Properties and Uses" : "tea, spice, carminative, anti-rheumatic, anticarcinogen, diuretic",
+    "Chemical Constituents" : "methyl salicylate"
+},
+{
+   
+    "Common Name" : "Thyme",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Thymus vulgaris",
+    "Family" : "Labiateae",
+    "Properties and Uses" : "carminative, antiseptic, expectorant,\nrubefacient",
+    "Chemical Constituents" : "thymol, carvacrol, cymene,\npinene"
+},
+{
+    
+    "Common Name" : "Tobacco",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Nicotiana tobaccum, N.\nattenuata, N. spp.",
+    "Family" : "Solanaceae",
+    "Properties and Uses" : "stimulant-depressant, can cause\ndependance, lung cancer, heart\ndisease",
+    "Chemical Constituents" : "nicotine"
+},
+{
+    
+    "Common Name" : "Tonka Bean",
+    "Parts Used" : "seeds",
+    "Latin Name" : "Coumarouna odorata",
+    "Family" : "Leguminoseae",
+    "Properties and Uses" : "perfumes, vanilla adulterant, toxic,\nhemmorragic",
+    "Chemical Constituents" : "coumarins"
+},
+{
+    
+    "Common Name" : "Turmeric",
+    "Parts Used" : "rhizomes",
+    "Latin Name" : "Curcuma longa, C.\ndomestica",
+    "Family" : "Zingiberaceae",
+    "Properties and Uses" : "curries, condiments, dye",
+    "Chemical Constituents" : "curcumin, cinnamoids,\nturmerone, alpha-phellandrene, sabinene,\ncineol, borneol"
+},
+{
+    
+    "Common Name" : "Valerian",
+    "Parts Used" : "root",
+    "Latin Name" : "Valeriana officinalis, V.\nspp.",
+    "Family" : "Valerianaceae",
+    "Properties and Uses" : "narcotic, antispasmodic, tranquilizer,\nsedative",
+    "Chemical Constituents" : "low MW bornyl esters,\ncamphene, velerines, pinene,\nlimonene, valepotriat"
+},
+{
+   
+    "Common Name" : "Vanilla",
+    "Parts Used" : "pods",
+    "Latin Name" : "Vanilla planifolia",
+    "Family" : "Orchidaceae",
+    "Properties and Uses" : "spice, fragrance",
+    "Chemical Constituents" : "vanillin, vanillic acid"
+},
+{
+   
+    "Common Name" : "Vanilla Grass",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Heirochloa odorata",
+    "Family" : "Gramineae",
+    "Properties and Uses" : "fragrance, liquers, hemmorragic",
+    "Chemical Constituents" : "coumarins"
+},
+{
+   
+    "Common Name" : "Verbena, Lemon",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Lippia citriodora, Aloysia\ntriphylla",
+    "Family" : "Verbenaceae",
+    "Properties and Uses" : "teas, potpourris, sachets, drinks,\ngarnish",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Vervain",
+    "Parts Used" : "flowers,\nleaves",
+    "Latin Name" : "Verbena officinalis",
+    "Family" : "Verbenaceae",
+    "Properties and Uses" : "antipyretic, diaphoretic, expectorant,\nastringent, antispasmodic, vulnerary,\ngalactagogue, aphrodisiac, tea",
+    "Chemical Constituents" : "verbenalin"
+},
+{
+   
+    "Common Name" : "Violet, Sweet",
+    "Parts Used" : "above-ground\nparts",
+    "Latin Name" : "Viola odorata, Viola spp.",
+    "Family" : "Violaceae",
+    "Properties and Uses" : "dye, perfume, aperient, acid-base\nindicator, anticarcinogen, cough\nsyrup, nutritive, anodyne",
+    "Chemical Constituents" : "flavonoids, salycilates"
+},
+{
+   
+    "Common Name" : "Wasabi",
+    "Parts Used" : "root",
+    "Latin Name" : "Wasabi japonica",
+    "Family" : "Cruciferae",
+    "Properties and Uses" : "spice and condiment used in\nJapanese cuisine",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Water Eryngo",
+    "Parts Used" : "root",
+    "Latin Name" : "Eryngium aquaticum",
+    "Family" : "Umbelliferae",
+    "Properties and Uses" : "diuretic, mild stimulant, diaphoretic,\nexpectorant, emetic in large doses)",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Willow",
+    "Parts Used" : "bark",
+    "Latin Name" : "Salix alba, S. spp.",
+    "Family" : "Salicaceae",
+    "Properties and Uses" : "astringent, analgesic, antipyretic,\nornamental, aromatic tonic, sedative,\ncan cause ulcers",
+    "Chemical Constituents" : "salicylates"
+},
+{
+    
+    "Common Name" : "Witch Hazel",
+    "Parts Used" : "twigs",
+    "Latin Name" : "Hammamelis virginiana",
+    "Family" : "Hammamelidaceae",
+    "Properties and Uses" : "externally as astringent, hemostatic",
+    "Chemical Constituents" : "gallitannins"
+},
+{
+    
+    "Common Name" : "Woodruff, Sweet",
+    "Parts Used" : "whole plant",
+    "Latin Name" : "Asperula odorata",
+    "Family" : "Rubiaceae",
+    "Properties and Uses" : "pot pourri fixative, May wine flavor,\nhemmorragic, vitamin K antagonist",
+    "Chemical Constituents" : "coumarins, asperuloside,\ntannins"
+},
+{
+    
+    "Common Name" : "Wormseed",
+    "Parts Used" : "tops",
+    "Latin Name" : "Chenopodium botrys",
+    "Family" : "Chenopodiaceae",
+    "Properties and Uses" : "dried arrangements, pot pourri,\nanthelmintic, ~toxic",
+    "Chemical Constituents" : "ascaridiol"
+},
+{
+   
+    "Common Name" : "Wormwood",
+    "Parts Used" : "tops, leaves",
+    "Latin Name" : "Artemisia absinthium",
+    "Family" : "Compositae",
+    "Properties and Uses" : "cordials, narcotic, anthelmintic,\nantiseptic, diaphoretic",
+    "Chemical Constituents" : "thujone"
+},
+{
+   
+    "Common Name" : "Yarrow",
+    "Parts Used" : "flowering\ntops",
+    "Latin Name" : "Achillea millefolium",
+    "Family" : "Compositae",
+    "Properties and Uses" : "antiseptic, astringent, hemostatic,\ntonic, anti-itching agent",
+    "Chemical Constituents" : null
+},
+{
+   
+    "Common Name" : "Yerba de Mate",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Ilex paraguaiensis",
+    "Family" : "Aquifoliaceae",
+    "Properties and Uses" : "CNS stimulant, can cause\nnervousness",
+    "Chemical Constituents" : "caffeine, theobromine"
+},
+{
+   
+    "Common Name" : "Yerba de Santa",
+    "Parts Used" : "leaves",
+    "Latin Name" : "Eriodictyon californicum",
+    "Family" : "Hydrophyllaceae",
+    "Properties and Uses" : "expectorant, tonic, cough syrup",
+    "Chemical Constituents" : "eriodictyol"
+}
+
+  ]

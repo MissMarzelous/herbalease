@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerbalEASE | Log in</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1f2d1f;
+            background:
+                radial-gradient(800px 400px at 15% 0%, rgba(76, 175, 80, 0.18), transparent 60%),
+                radial-gradient(700px 400px at 100% 100%, rgba(46, 125, 50, 0.14), transparent 60%),
+                #f3f8f1;
+        }
+        .wrap {
+            min-height: calc(100vh - 46px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 16px;
+        }
+        .card {
+            width: 100%;
+            max-width: 420px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 12px 40px rgba(31, 45, 31, 0.12);
+            overflow: hidden;
+        }
+        .brand {
+            background: linear-gradient(135deg, #2e7d32, #4caf50);
+            color: #fff;
+            text-align: center;
+            padding: 28px 24px 22px;
+        }
+        .brand .leaf { font-size: 34px; line-height: 1; }
+        .brand h1 { margin: 8px 0 4px; font-size: 28px; letter-spacing: 0.5px; }
+        .brand p { margin: 0; opacity: 0.9; font-size: 14px; }
+        .tabs { display: flex; border-bottom: 1px solid #e3ece1; }
+        .tabs button {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            background: none;
+            font-size: 15px;
+            font-weight: bold;
+            color: #6b7d6b;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+        }
+        .tabs button[aria-selected="true"] { color: #2e7d32; border-bottom-color: #2e7d32; }
+        form { padding: 22px 24px 8px; }
+        label { display: block; font-size: 13px; font-weight: bold; margin: 0 0 6px; color: #3d4f3d; }
+        input {
+            width: 100%;
+            padding: 11px 12px;
+            margin-bottom: 14px;
+            border: 1px solid #cfdccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+        input:focus { outline: 2px solid #4caf50; border-color: transparent; }
+        .primary {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #2e7d32;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .primary:hover { background: #276b2b; }
+        .primary:disabled { opacity: 0.6; cursor: wait; }
+        .msg { min-height: 20px; margin: 10px 0 0; font-size: 14px; }
+        .msg.error { color: #c62828; }
+        .msg.ok { color: #2e7d32; }
+        .guest {
+            padding: 6px 24px 22px;
+            text-align: center;
+            font-size: 14px;
+            color: #6b7d6b;
+        }
+        .guest a { color: #2e7d32; font-weight: bold; }
+        .note {
+            margin: 0;
+            padding: 12px 24px;
+            background: #f6faf5;
+            border-top: 1px solid #e3ece1;
+            font-size: 12px;
+            color: #7a8a7a;
+            text-align: center;
+        }
+        .signed-in { padding: 24px; text-align: center; }
+        .signed-in p { margin: 0 0 16px; }
+        .link-btn { background: none; border: none; color: #2e7d32; cursor: pointer; font-size: 14px; margin-top: 12px; text-decoration: underline; }
+        .rules { list-style: none; margin: -6px 0 14px; padding: 0; font-size: 13px; color: #6b7d6b; }
+        .rules li { margin: 3px 0; padding-left: 22px; position: relative; }
+        .rules li::before { content: "\2715"; position: absolute; left: 4px; color: #b0bcae; }
+        .rules li.met { color: #2e7d32; }
+        .rules li.met::before { content: "\2713"; color: #2e7d32; font-weight: bold; }
+        .match { margin: -8px 0 14px; font-size: 13px; min-height: 16px; }
+        .match.ok { color: #2e7d32; }
+        .match.bad { color: #c62828; }
+        .demo {
+            margin: 0 0 16px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            background: #eef7ec;
+            border: 1px solid #cfe5cb;
+            font-size: 14px;
+            color: #2f4a2f;
+        }
+        .demo button {
+            margin-left: 6px;
+            padding: 4px 10px;
+            border: 1px solid #2e7d32;
+            border-radius: 6px;
+            background: #fff;
+            color: #2e7d32;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .demo button:hover { background: #2e7d32; color: #fff; }
+        [hidden] { display: none !important; }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="card">
+        <div class="brand">
+            <div class="leaf" aria-hidden="true">&#127807;</div>
+            <h1>HerbalEASE</h1>
+            <p>Your herbal reference and community</p>
+        </div>
+
+        <!-- Shown when already logged in -->
+        <div class="signed-in" id="signedIn" hidden>
+            <p>Welcome back, <b id="signedInName"></b>!</p>
+            <button class="primary" id="goToApp">Go to the Herbal Database</button>
+            <p style="margin:12px 0 0;"><a href="boards.html" style="color:#2e7d32;font-weight:bold;">View my saved boards</a></p>
+            <br>
+            <button class="link-btn" id="logOutBtn">Log out</button>
+        </div>
+
+        <div id="authArea">
+            <div class="tabs" role="tablist">
+                <button role="tab" id="tabLogin" aria-selected="true" aria-controls="loginForm">Log in</button>
+                <button role="tab" id="tabSignup" aria-selected="false" aria-controls="signupForm">Create account</button>
+            </div>
+
+            <form id="loginForm" novalidate>
+                <p class="demo">Demo login: <strong>demo</strong> / <strong>HerbalTest1</strong>
+                    <button type="button" id="useDemo">Use demo login</button></p>
+                <label for="loginUser">Username</label>
+                <input id="loginUser" autocomplete="username" required>
+                <label for="loginPass">Password</label>
+                <input id="loginPass" type="password" autocomplete="current-password" required>
+                <button class="primary" type="submit">Log in</button>
+                <p class="msg" id="loginMsg" role="alert"></p>
+            </form>
+
+            <form id="signupForm" novalidate hidden>
+                <label for="signupUser">Choose a username</label>
+                <input id="signupUser" autocomplete="username" required>
+                <label for="signupPass">Choose a password</label>
+                <input id="signupPass" type="password" autocomplete="new-password" required aria-describedby="pwRules">
+                <ul class="rules" id="pwRules" aria-live="polite"></ul>
+                <label for="signupPass2">Confirm password</label>
+                <input id="signupPass2" type="password" autocomplete="new-password" required>
+                <p class="match" id="pwMatch" aria-live="polite"></p>
+                <button class="primary" type="submit">Create account</button>
+                <p class="msg" id="signupMsg" role="alert"></p>
+            </form>
+
+            <div class="guest">Just looking? <a href="database.html">Continue as a guest &rarr;</a></div>
+        </div>
+
+        <p class="note">Accounts are stored securely on the server. Passwords are hashed and never visible.</p>
+    </div>
+</div>
+
+<script src="auth.js"></script>
+<script>
+    (function () {
+        var tabLogin = document.getElementById("tabLogin");
+        var tabSignup = document.getElementById("tabSignup");
+        var loginForm = document.getElementById("loginForm");
+        var signupForm = document.getElementById("signupForm");
+
+        function showTab(which) {
+            var login = which === "login";
+            tabLogin.setAttribute("aria-selected", login ? "true" : "false");
+            tabSignup.setAttribute("aria-selected", login ? "false" : "true");
+            loginForm.hidden = !login;
+            signupForm.hidden = login;
+            (login ? document.getElementById("loginUser") : document.getElementById("signupUser")).focus();
+        }
+        tabLogin.addEventListener("click", function () { showTab("login"); });
+        tabSignup.addEventListener("click", function () { showTab("signup"); });
+
+        // Open the Create account tab when the link ends in #signup
+        if (window.location.hash === "#signup") { showTab("signup"); }
+
+        // Pre-fill the demo account when the link ends in #demo
+        if (window.location.hash === "#demo") {
+            document.getElementById("loginUser").value = "demo";
+            document.getElementById("loginPass").value = "HerbalTest1";
+        }
+
+        // Fill in the demo account
+        document.getElementById("useDemo").addEventListener("click", function () {
+            document.getElementById("loginUser").value = "demo";
+            document.getElementById("loginPass").value = "HerbalTest1";
+            document.getElementById("loginPass").focus();
+        });
+
+        function goToApp() { window.location.href = "database.html"; }
+
+        // Already logged in?
+        HerbAuth.current().then(function (user) {
+            if (!user) return;
+            document.getElementById("authArea").hidden = true;
+            document.getElementById("signedIn").hidden = false;
+            document.getElementById("signedInName").textContent = user;
+        });
+        document.getElementById("goToApp").addEventListener("click", goToApp);
+        document.getElementById("logOutBtn").addEventListener("click", function () {
+            HerbAuth.logOut().then(function () { window.location.reload(); });
+        });
+
+        // Live password checklist
+        var pass1 = document.getElementById("signupPass");
+        var pass2 = document.getElementById("signupPass2");
+        var userIn = document.getElementById("signupUser");
+        var rulesList = document.getElementById("pwRules");
+        var matchMsg = document.getElementById("pwMatch");
+        HerbAuth.rules.forEach(function (r) {
+            var li = document.createElement("li");
+            li.id = "rule-" + r.id;
+            li.textContent = r.text;
+            rulesList.appendChild(li);
+        });
+        function passwordOk() {
+            var all = true;
+            HerbAuth.rules.forEach(function (r) {
+                var met = r.test(pass1.value, userIn.value);
+                document.getElementById("rule-" + r.id).className = met ? "met" : "";
+                if (!met) all = false;
+            });
+            if (pass2.value) {
+                var same = pass1.value === pass2.value;
+                matchMsg.textContent = same ? "Passwords match" : "Passwords don't match yet";
+                matchMsg.className = "match " + (same ? "ok" : "bad");
+            } else {
+                matchMsg.textContent = "";
+                matchMsg.className = "match";
+            }
+            return all;
+        }
+        [pass1, pass2, userIn].forEach(function (el) { el.addEventListener("input", passwordOk); });
+
+        function setMsg(el, text, ok) {
+            el.textContent = text;
+            el.className = "msg " + (ok ? "ok" : "error");
+        }
+
+        loginForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var msg = document.getElementById("loginMsg");
+            var btn = loginForm.querySelector("button[type=submit]");
+            btn.disabled = true;
+            HerbAuth.logIn(document.getElementById("loginUser").value, document.getElementById("loginPass").value)
+                .then(function (name) { setMsg(msg, "Welcome back, " + name + "!", true); setTimeout(goToApp, 500); })
+                .catch(function (err) { setMsg(msg, err.message, false); btn.disabled = false; });
+        });
+
+        signupForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var msg = document.getElementById("signupMsg");
+            var p1 = document.getElementById("signupPass").value;
+            var p2 = document.getElementById("signupPass2").value;
+            if (!passwordOk()) { setMsg(msg, "Your password doesn't meet all the rules yet.", false); return; }
+            if (p1 !== p2) { setMsg(msg, "Passwords don't match.", false); return; }
+            var btn = signupForm.querySelector("button");
+            btn.disabled = true;
+            HerbAuth.signUp(document.getElementById("signupUser").value, p1)
+                .then(function (name) { setMsg(msg, "Account created. Welcome, " + name + "!", true); setTimeout(goToApp, 600); })
+                .catch(function (err) { setMsg(msg, err.message, false); btn.disabled = false; });
+        });
+    })();
+</script>
+<script src="../assets/projectbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* HerbalEASE app theme (herb database + boards), matches the login page */
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2d1f;
+    background:
+        radial-gradient(800px 400px at 15% 0%, rgba(76, 175, 80, 0.14), transparent 60%),
+        #f3f8f1;
+    min-height: 100vh;
+}
+[hidden] { display: none !important; }
+a { color: #2e7d32; }
+
+/* Header */
+.app-head {
+    background: linear-gradient(135deg, #2e7d32, #4caf50);
+    color: #fff;
+    padding: 26px 16px 22px;
+}
+.app-head .inner { max-width: 1200px; margin: 0 auto; }
+.app-head .top { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.app-head h1 { margin: 0; font-size: 28px; letter-spacing: 0.5px; }
+.app-head h1 span { font-size: 26px; margin-right: 6px; }
+.app-head p { margin: 6px 0 0; opacity: 0.92; font-size: 15px; }
+.user-box { font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.user-box a, .user-box button {
+    color: #fff; background: rgba(255, 255, 255, 0.18); border: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 7px 14px; border-radius: 999px; text-decoration: none; font-size: 14px; cursor: pointer;
+    font-family: inherit;
+}
+.user-box a:hover, .user-box button:hover { background: rgba(255, 255, 255, 0.3); }
+.search {
+    margin-top: 18px; display: flex; gap: 8px; max-width: 640px;
+}
+.search input {
+    flex: 1; min-width: 0; padding: 13px 16px; border-radius: 999px; border: none; font-size: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+.search input:focus { outline: 3px solid rgba(255, 255, 255, 0.6); }
+
+/* Page body */
+.page { max-width: 1200px; margin: 0 auto; padding: 18px 16px 48px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.chip {
+    border: 1px solid #cfdccc; background: #fff; color: #3d4f3d; padding: 7px 14px; border-radius: 999px;
+    font-size: 14px; cursor: pointer; font-family: inherit;
+}
+.chip[aria-pressed="true"] { background: #2e7d32; border-color: #2e7d32; color: #fff; }
+.count { color: #6b7d6b; font-size: 14px; margin: 0 0 16px; }
+.empty { text-align: center; color: #6b7d6b; padding: 48px 16px; }
+
+/* Masonry grid (Pinterest style): cards fill left to right into the shortest column */
+.masonry { display: flex; gap: 16px; align-items: flex-start; }
+.masonry .mcol { flex: 1 1 0; min-width: 0; }
+@media (max-width: 760px) { .masonry { gap: 12px; } }
+
+.herb-card {
+    display: block; width: 100%; margin: 0 0 16px;
+    background: #fff; border-radius: 16px; overflow: hidden;
+    box-shadow: 0 4px 16px rgba(31, 45, 31, 0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.herb-card:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(31, 45, 31, 0.14); }
+.herb-art {
+    position: relative; color: #fff; display: flex; align-items: flex-end; padding: 16px;
+    overflow: hidden;
+}
+.herb-art .letter {
+    position: absolute; right: -6px; top: -18px; font-family: Georgia, "Times New Roman", serif;
+    font-size: 150px; line-height: 1; opacity: 0.18; font-weight: bold; pointer-events: none;
+}
+.herb-art svg { position: absolute; left: 14px; top: 14px; width: 34px; height: 34px; opacity: 0.85; }
+.herb-art h3 { margin: 0; font-size: 20px; line-height: 1.2; position: relative; text-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+.save-btn {
+    position: absolute; top: 12px; right: 12px; z-index: 1;
+    background: #fff; color: #2e7d32; border: none; border-radius: 999px; padding: 8px 14px;
+    font-weight: bold; font-size: 14px; cursor: pointer; font-family: inherit;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.save-btn:hover { background: #e8f5e9; }
+.save-btn.saved { background: #1b5e20; color: #fff; }
+.herb-body { padding: 14px 16px 16px; font-size: 14px; line-height: 1.45; }
+.herb-body .latin { font-style: italic; color: #4a5d4a; margin: 0 0 8px; }
+.herb-body .meta { margin: 0 0 8px; color: #3d4f3d; }
+.herb-body .meta b { color: #1f2d1f; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.tag { background: #eef6ec; color: #2e5e30; padding: 3px 9px; border-radius: 999px; font-size: 12px; }
+.herb-body .chem { color: #6b7d6b; font-size: 13px; margin: 0; }
+.remove-btn {
+    margin-top: 10px; background: none; border: 1px solid #e0b4b4; color: #c62828; border-radius: 999px;
+    padding: 6px 12px; font-size: 13px; cursor: pointer; font-family: inherit;
+}
+.remove-btn:hover { background: #fdecec; }
+
+/* Save dialog */
+.overlay {
+    position: fixed; inset: 0; background: rgba(20, 30, 20, 0.45); z-index: 1000;
+    display: flex; align-items: center; justify-content: center; padding: 16px;
+}
+.dialog {
+    width: 100%; max-width: 380px; max-height: 85vh; overflow: auto; background: #fff; border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25); padding: 20px;
+}
+.dialog h2 { margin: 0 0 4px; font-size: 20px; }
+.dialog .sub { margin: 0 0 14px; color: #6b7d6b; font-size: 14px; }
+.board-pick { list-style: none; margin: 0 0 14px; padding: 0; }
+.board-pick li button {
+    width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 8px;
+    padding: 11px 12px; margin: 0 0 6px; border: 1px solid #e3ece1; background: #f9fcf8; border-radius: 10px;
+    font-size: 15px; cursor: pointer; text-align: left; font-family: inherit; color: #1f2d1f;
+}
+.board-pick li button:hover { border-color: #4caf50; }
+.board-pick li button .state { font-size: 13px; font-weight: bold; color: #2e7d32; white-space: nowrap; }
+.board-pick li button.on { background: #e8f5e9; border-color: #4caf50; }
+.new-board { display: flex; gap: 8px; }
+.new-board input {
+    flex: 1; min-width: 0; padding: 10px 12px; border: 1px solid #cfdccc; border-radius: 8px; font-size: 15px;
+}
+.btn {
+    padding: 10px 16px; border: none; border-radius: 8px; background: #2e7d32; color: #fff; font-weight: bold;
+    font-size: 15px; cursor: pointer; font-family: inherit; text-decoration: none; display: inline-block;
+}
+.btn:hover { background: #276b2b; }
+.btn.light { background: #eef6ec; color: #2e7d32; }
+.btn.light:hover { background: #dcefd9; }
+.btn.danger { background: #fdecec; color: #c62828; }
+.dialog .msg { min-height: 18px; margin: 8px 0 0; font-size: 14px; color: #c62828; }
+.dialog .close-row { display: flex; justify-content: flex-end; margin-top: 12px; gap: 8px; flex-wrap: wrap; }
+
+/* Boards page */
+.boards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; }
+.board-tile {
+    background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(31, 45, 31, 0.08);
+    cursor: pointer; border: none; padding: 0; text-align: left; font-family: inherit; color: inherit;
+}
+.board-tile:hover { box-shadow: 0 10px 26px rgba(31, 45, 31, 0.14); }
+.collage { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; height: 160px; gap: 2px; background: #fff; }
+.collage div {
+    display: flex; align-items: center; justify-content: center; color: #fff;
+    font-family: Georgia, serif; font-size: 34px; font-weight: bold; background: #dfe9dc;
+}
+.collage div:first-child { grid-row: span 2; font-size: 56px; }
+.board-tile .info { padding: 12px 14px 14px; }
+.board-tile h3 { margin: 0 0 2px; font-size: 17px; }
+.board-tile p { margin: 0; color: #6b7d6b; font-size: 13px; }
+.new-tile {
+    border: 2px dashed #b9d3b4; border-radius: 16px; background: transparent; min-height: 220px; cursor: pointer;
+    color: #2e7d32; font-size: 16px; font-weight: bold; font-family: inherit;
+}
+.new-tile:hover { background: #eef6ec; }
+.board-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 16px; }
+.board-head h2 { margin: 0 auto 0 0; font-size: 24px; }
+.signin-card {
+    max-width: 420px; margin: 32px auto; background: #fff; border-radius: 16px; padding: 28px;
+    text-align: center; box-shadow: 0 12px 40px rgba(31, 45, 31, 0.12);
+}
+.signin-card p { color: #4a5d4a; }
+
+.toast {
+    position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #1f2d1f; color: #fff;
+    padding: 11px 18px; border-radius: 999px; font-size: 14px; z-index: 1100; box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
